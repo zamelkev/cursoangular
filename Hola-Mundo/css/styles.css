@@ -1,0 +1,31 @@
+html {
+
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+  font-family: NotoSansDisplay, 'NotoSansDisplay-fallback', Arial, sans-serif;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+
+#rojo {
+  color: red;
+}

@@ -1,0 +1,27 @@
+.cont1{
+    margin: 0 auto;
+    height: 850px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja1{
+    width: 30rem;
+    height: 30rem;
+    background-color: yellow;
+    position:absolute;
+    margin: 0 auto;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.caja2{
+    width: 20rem;
+    height: 20rem;
+    background-color: red;
+    position: absolute;
+    margin: 0 auto;
+    align-content: center;
+    vertical-align: middle;
+}
