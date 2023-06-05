@@ -2,11 +2,14 @@
 
 1- Estilos generales
 2- header
-    2.1 - CAJA PADRE
-    2.2 - PRIMER CONTENEDOR
-    2.2 - SEGUNDO CONTENEDOR
-        2.2.1 - PRIMER CONTENTEDOR
-            2.2.1.a PRIMER CONTENEDOR    */
+    2.1 - CAJA PADRE (NEGRO)
+    2.2 - PRIMER CONTENEDOR (NARANJA)
+    2.2 - SEGUNDO CONTENEDOR (AZUL)
+        2.2.1 - PRIMER CONTENTEDOR (ROSA)
+            2.2.1.a PRIMER CONTENEDOR
+            2.2.1.b SEGUNDO CONTENEDOR
+            2.2.1.c TERCER CONTENEDOR 
+        2.2.2 - SEGUNDO CONTENEDOR (BOTÓN)  */
 
 /* 1 - ESTILOS GENERALES ****************************************** */
 
@@ -23,11 +26,16 @@ label, p, span, a {
 a:active, a:hover{
     font-weight: 700 !important;
 }
-
 span{
     font-weight: 100 !important;
     font-size: 0.8rem;
 }
+
+i{
+    color: white;
+    margin: 0 0.4rem;
+}
+
 
 /* 2.1 - CAJA PADRE (Contenedor Negro) *********************************************** */
 
@@ -64,11 +72,18 @@ padding: 0 1.2rem;
     display: flex;
     align-items: center;
 }
+
+.menusup div{
+    display:flex;
+    align-items: center;
+}
 /* 2.2 - SEGUNDO CONTENEDOR (Contenedor Azul) *********************************************** */
 
 .contAzul{
     display: flex;
     align-items: flex-end;
+    width: 93%;
+    margin: 2rem auto 0 auto;
 }
 /* 2.2.1.a PRIMER CONTENEDOR (Dentro del contenedor ROSA)*********************************************** */
 .menuinf li{
@@ -101,7 +116,7 @@ padding: 0.7rem;
 }
 
 .contRosa{
-    width: 65%;
+    width: 73%;
 }
 
 
@@ -123,27 +138,27 @@ padding: 0.7rem;
 .menuter input{
     margin-right: 0.2rem;
 }
-
+/* 2.2.1.b SEGUNDO CONTENEDOR (Dentro del contenedor ROSA)*********************************************** */
 .caja2{
     display: flex;
     justify-content: space-between;
     color: white;
-    margin-top: 1rem 0;
+    margin: 1rem 0;
 }
-
+/* 2.2.1.c TERCER CONTENEDOR (Dentro del contenedor ROSA)*********************************************** */
 .caja3 div{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 0.2rem 0 0.4rem 0.5rem;
+    justify-content: space-evenly;
+    padding: 4px 0 8px 1.2rem;
+    background-color: white;
     width: 50%;
-    height: auto;
+    height: 40px;
 }
-
 .caja3 p{
-    margin: 0px !important;
+margin: 0px !important;
+padding: 0px !important;
 }
-
 .caja3{
     display: flex;
     position: relative;
@@ -158,17 +173,41 @@ padding: 0.7rem;
     margin: auto;
     width: 1.4rem !important;
     height: 1.4rem !important;
-    border: 0.5px solid rgb(146, 146, 146);
+    border: 0.5px solid rgb(136, 136, 136);
     border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.caja3 :nth-child(1){
-    border-radius: 10px 0 0 10px;
-    border-right: 0.5px solid rgb(146, 146, 146);
+.botonabs i{
+    border: 1px solid rgb(136, 136, 136) !important;
+}
+
+.caja3 :first-child{
+    border-radius: 5px 0 0 5px;
+    border-right: 0.5px solid rgb(136, 136, 136);
 }
 
 .caja3 :nth-child(2){
-    border-radius: 0 10px 10px 0;
-    padding-left: 1rem;
+    border-radius: 0 5px 5px 0;
 }
 
+.caja3 :nth-child(2) p, .caja3 :nth-child(2) span{
+    padding-left: 1.25rem !important;
+}
+/* 2.2.2 SEGUNDO CONTENEDOR (Dentro del contenedor AZUL)*********************************************** */
+.boton button{
+    width: 100%;
+    padding: 1rem;
+    background-color: #f1c933;
+    color: #073590;
+    border: none !important;
+    border-radius: 5px;
+    height: 3.25rem;
+    margin-left: 0.25rem;
+}
+
+.boton{
+    width: 27%;
+}
