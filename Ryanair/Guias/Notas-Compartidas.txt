@@ -1,0 +1,10 @@
+ESTRUCTURA HTML RYANAIR
+
+div.contNegro>(div.contNaranja>div.logotipo+(div.menusup>nav>ul>li*5>a))+div.contAzul>(div.contRosa>(div>nav.menuinf>ul>li*4>(i+a))+(div.menuter>(input:radio+label)*2+(i+label))+((div>span+p)+div.botonabs>i)*2)+div.boton>button
+
+
+REM Y EM
+
+REM: Root Em --> En caso de que no hayamos modificado el tamaño de fuente en nuestro sistema operativo (desktop), será = a 16px.
+
+EM: En caso de que no hayamos modificado el tamaño de fuente en nuestro sistema operativo (desktop), será = a 16px. Pero es una unidad de medida escalable
