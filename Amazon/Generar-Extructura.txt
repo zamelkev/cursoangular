@@ -1,0 +1,4 @@
+div.negro>(
+div.naranja>(div.verdeIzquierda>(div.logotipo+(div.ubicacion>(i+button>(p*2))))+
+div.verdeCentral>+(div.verdeDerecha>(div.idioma>(img{bandera}+p+i)+div.cuenta>(p*2)+div.pedidos>(p*2)+div.cesta>(i+p)))+
+div.magenta>)

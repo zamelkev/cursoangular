@@ -1,0 +1,63 @@
+/* MEDIA QUERIES HEADER AMAZON */
+
+/* BREAKPOINT XS y SM */
+
+@media (min-width: 0px) and (max-width: 576px){
+
+    .amarillooscuro, .containerfx-end, .rojo {
+        display: none;
+    }
+    .spacioeven {
+        display: block;
+        margin-top: 1rem;
+    }
+    .contAmac{
+        flex-direction: column;
+        height: auto;
+        padding: 1.5rem 1rem;
+        background-color: #232f3e;
+    }
+    .azulclaro{
+        width: 100%;
+    }
+    .achijo1{
+        display: none;
+    }
+    .achijo2{
+        border-radius: 7px 0 0 7px;
+        width: 90%;
+    }
+    .achijo3{
+        border-radius: 1.5rem;
+    }
+    .containerfx-end{
+        display: flex;
+        align-items: flex-end;
+    }
+    .containerfx-end p{
+        padding: 0 0.2rem;
+    }
+
+    /* ESTILOS MOBILE */
+    .containerTop{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .logotipo{
+        display: flex;
+        align-items: flex-start;
+    }
+    .logotipo i{
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .contTopRight, .loginMbl{
+        display: flex;
+    }
+    
+
+    
+}
+
+/* BREAK POINT */
