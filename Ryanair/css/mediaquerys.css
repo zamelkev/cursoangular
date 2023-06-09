@@ -1,0 +1,103 @@
+/* MEDIA QUERIES HEADER AMAZON */
+
+/* BREAKPOINT XS a MD */
+
+@media (min-width: 0px) and (max-width: 985px) {
+    
+    .contNegro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .menusup {
+        display: none;
+    }
+
+    .contRosa {
+        display: none;
+    }
+
+    .contNaranja{
+        display: flex;
+        flex-direction: column;
+        height: 8.5rem !important;
+    }
+
+    .mobileIcons {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    .logotipo {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 0 1rem;
+    }
+
+    .subtitulo {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: white;
+        margin 0 0 0 0.5rem;
+        font-size: 1rem;
+    }
+
+    .subtitulo span {
+        color: #f1c933;
+        font-weight: 700 !important;
+        font-size: 1rem;
+    }
+
+    
+    .logotipo img {
+        height: 7rem;
+        width: auto;
+    }
+
+    .boton {
+        display: none;
+    }
+
+    .botonMovil {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .botonMovil button {
+        width: 100%;
+        padding: 1rem;
+        background-color: #f1c933;
+        color: #073590;
+        border: none !important;
+        border-radius: 5px;
+        height: 3.25rem;
+    }
+
+}
+
+/* BREAKPOINT XL en adelante */
+
+@media (min-width: 985px) {
+    .logotipo i {
+        display: none;
+    }
+    .mobileIcons {
+        display: none;
+    }
+    .botonMovil {
+        display: none;
+    }
+    .subtitulo {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+/* ESTILOS MOBILE */
