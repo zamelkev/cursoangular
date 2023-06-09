@@ -1,13 +1,13 @@
 /* MEDIA QUERIES HEADER AMAZON */
 
-/* BREAKPOINT XS y SM */
+/* BREAKPOINT XS a MD */
 
-@media (min-width: 0px) and (max-width: 576px){
-
-    .amarillooscuro, .containerfx-end, .rojo {
+@media (min-width: 0px) and (max-width: 768px){
+    
+    .amarillooscuro, .containerfx-end, .rojo{
         display: none;
     }
-    .spacioeven {
+    .spacioeven{
         display: block;
         margin-top: 1rem;
     }
@@ -19,6 +19,8 @@
     }
     .azulclaro{
         width: 100%;
+        background-color: white;
+        border-radius: 7px;
     }
     .achijo1{
         display: none;
@@ -28,36 +30,82 @@
         width: 90%;
     }
     .achijo3{
-        border-radius: 1.5rem;
+        border-radius: 7px;
     }
-    .containerfx-end{
-        display: flex;
-        align-items: flex-end;
+}
+/* BREAKPOINT MD a XL */
+@media (min-width: 769px) and (max-width: 991px){
+    .containerfx-endMDXL{
+        display: none;
     }
-    .containerfx-end p{
-        padding: 0 0.2rem;
+    .amarillooscuroMDXL{
+        display: none;
     }
-
-    /* ESTILOS MOBILE */
-    .containerTop{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
+    .azulclaro{
+        width: 60% !important;
     }
-    .logotipo{
-        display: flex;
-        align-items: flex-start;
-    }
-    .logotipo i{
-        font-size: 1.5rem;
-        margin-right: 1.5rem;
-    }
-    .contTopRight, .loginMbl{
-        display: flex;
-    }
-    
-
-    
 }
 
-/* BREAK POINT */
+/* BREAKPOINT MD a XL */
+
+@media (min-width: 769px) and (max-width: 1199px){
+    .containerTop i, .contTopRight{
+        display: none;
+    }
+    .containerTop{
+        width: fit-content;
+    }
+    .rojoMDXL{
+        display: none;
+    }
+    .azulclaro{
+        width: 35%;
+        background-color: white;
+        border-radius: 7px;
+    }
+    .achijo1{
+        display: none;
+    }
+    .achijo2{
+        border-radius: 7px 0 0 7px;
+        width: 90%;
+    }
+    .achijo3{
+        border-radius: 7px;
+    }
+}
+
+/* BREAKPOINT XL en adelante */
+
+@media (min-width: 1200px){
+.containerTop i, .contTopRight{
+    display: none;
+}
+.containerTop{
+    width: fit-content;
+}
+}
+
+/* ESTILOS MOBILE */
+.containerTop{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logotipo{
+    display: flex;
+    align-items: flex-start;
+}
+.logotipo i{
+    font-size:1.5rem;
+    margin-right: 1.5rem;
+}
+.contTopRight, .loginMbl{
+    display: flex;
+}
+.loginMbl i{
+    margin-left: 0.2rem;
+}
+.cartMbl{
+    margin-left: 1.5rem;
+}
