@@ -1,0 +1,18 @@
+FRAMEWORKS de CSS y JS
+
+https://getbootstrap.com/docs/5.2/getting-started/introduction/
+
+https://animate.style
+
+www.pixabay.com
+
+
+Algunas irregularidades al utilizar las unidades de medida vw y vh son:
+	1. 
+		1.1. En IE9 dentro de un iframe, las unidades se calcularan en el contexto de área de la ventana y no del iframe.
+		1.2. IE9 no calcula las unidades correctamente cuando el explorador o sistema operativo esta ampliado.
+		1.3. En IE10 y 11 cuando se usan las unidades vw con 3D Transform puede generar extraños comportamientos.
+		1.4. iOS 7 Safari  re calcula anchos establecidos en vh como vw, y altos en vw como vh, cuando la orientación cambia.
+		1.5. Internet Explorer 9 en print-mode interpreta vh como paginas. 30vh= 30paginas
+		1.6. Chrome, Safari & iOS Safari (ambos 6 y 7) no soporta estas unidades en anchos de bordes, valores de transform, sombras .
+		1.7. En Firefox hay un bug documentado donde 100vhno tiene efecto alguno cuando su disposición sea establecido como display:table.
