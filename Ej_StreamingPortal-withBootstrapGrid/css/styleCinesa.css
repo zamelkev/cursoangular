@@ -1,12 +1,13 @@
 @font-face {
     font-family: 'titleFilm';
-    src: url('../fonts/AldotheApache.ttf');
+    src: url('../fonts/SuperFunky.ttf');
 }
+/* src: url('../fonts/AldotheApache.ttf'); */
 
 
 .filmContainer{
-    width:11rem;
-    height:18rem;
+    width:17rem;
+    height:24rem;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -28,7 +29,7 @@
     width: 3rem;
     height: 3rem;
     border-radius: 0 0 20px 0;
-    background-color: rgb(73, 73, 243);
+    background-color: rgb(243, 169, 73);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,10 +42,24 @@
 .filmContainer span{
     position: absolute;
     bottom: -30px;
-    left: -30px;
-    font-size: 2.5rem;
+    left: -10px;
+    font-size: 2.25rem;
     font-family: 'titleFilm';
     text-shadow:3px -3px 8px rgb(255, 255, 255) ;
+}
+
+@media (min-width:1200px) and (max-width: 1710px){
+    .filmContainer{
+        width:15rem;
+        height: 22rem;
+    }
+}
+
+@media (min-width:1200px) and (max-width: 1380px){
+    .filmContainer{
+        width: 11rem;
+        height: 17rem;
+    }
 }
 
 @media (min-width: 991px) and (max-width: 1199px){
@@ -53,17 +68,23 @@
         height: 19rem;
     }
 }
-@media (min-width: 576px) and (max-width: 768px){
+@media (min-width: 768px) and (max-width:990px){
     .filmContainer{
         width: 13rem;
         height: 19rem;
     }
 }
+@media (min-width: 576px) and (max-width: 768px){
+    .filmContainer{
+        width: 12rem;
+        height: 18rem;
+    }
+}
 
 @media (max-width: 575px){
     .filmContainer{
-        width: 15.5rem;
-        height: 21rem;
+        width: 20rem;
+        height: 28rem;
     }
 }
 
@@ -72,12 +93,12 @@
 .sectionTitle{
     font-family: 'titleFilm';
     font-size: 4rem;
-    color: rgb(73, 73, 243);
+    color: rgb(243, 169, 73);
 }
 
 .filmContainerS{
-    width:5rem;
-    height:9rem;
+    width:10rem;
+    height:18rem;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -88,7 +109,7 @@
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 0 0 10px 0;
-    background-color: rgb(73, 73, 243);
+    background-color: rgb(243, 169, 73);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,8 +175,8 @@
 
 @media (max-width: 575px){
     .filmContainerS{
-        width: 10rem;
-        height: 14rem;
+        width: 13rem;
+        height: 17rem;
     }
     .filmContainerS span{
         font-size: 2rem;
