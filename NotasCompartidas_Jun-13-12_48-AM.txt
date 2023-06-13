@@ -1,0 +1,41 @@
+Estudio Mobile
+https://iabspain.es/estudio/estudio-mobile-conectividad-inteligente-2021/
+
+Regla especificidad: https://developer.mozilla.org/es/docs/Web/CSS/Specificity
+
+• HTML → lectura secuencial → carga (orden/posición)
+• carga secuencial (css/js)→ orden
+1. prevalece ultima sobrecara o sobreescritura
+2. prevalece la "jerarquía de reglas"
+  1. de lo +genérico a...
+  2. .class
+  3. #id
+  4. lo +especifico
+  5. !important
+3. prevalece el important! (ante varios → último)
+
+https://codepen.io/ieatwebsites/pen/NgxOYx
+
+css → object-fit
+https://www.w3schools.com/cssref/css3_pr_object-fit.php
+Recurso OVERAPI
+https://overapi.com/css
+
+RESETEOS PARA CSS
+https://escuelawow.com/recursos-reset-estilos-css/
+
+Css → Calc
+https://www.w3schools.com/cssref/func_calc.php
+
+Código cinesa 1
+https://codeshare.io/bvBw36
+
+RECURSO TIPOGRAFÍAS
+www.dafont.com
+
+JPG o JPEG 
+https://www.adobe.com/es/creativecloud/file-types/image/raster/jpeg-file.html
+
+
+
+
