@@ -1,5 +1,5 @@
 Estudio Mobile
-https://iabspain.es/estudio/estudio-mobile-conectividad-inteligente-2021/
+https://iabspain.es/estudio/est0000udio-mobile-conectividad-inteligente-2021/
 
 Regla especificidad: https://developer.mozilla.org/es/docs/Web/CSS/Specificity
 
@@ -36,6 +36,18 @@ www.dafont.com
 JPG o JPEG 
 https://www.adobe.com/es/creativecloud/file-types/image/raster/jpeg-file.html
 
+ESTRUCTURA BASE GRID
 
+div.grid>div.row>div.col
+
+TTF y OTF
+http://tiposconcaracter.es/truetype-opentype/
+
+Las TTF (True Type Fonts) son fuentes PS (PostScript) codificados en UTF-8 (256 bits = US-ASCII [7bits = 128] + 128).
+OTF (Open Type Fonts)→ UCS (UCS-2→UTF-16=2^16= 65.536 crts [Code Points])→ IS0/IEC 10646 →(10646-1) Español ISO/IEC 8859-1 (Latin-1).
+Son temas de fuentes "Unicode", para caracteres asiáticos esta el "Unihan".
+
+Herramientas de validación CSS
+https://jigsaw.w3.org/css-validator/
 
 
