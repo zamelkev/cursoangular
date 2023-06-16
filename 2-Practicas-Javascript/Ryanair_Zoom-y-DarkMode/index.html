@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/5297876925.js" crossorigin="anonymous"></script>
-<!-- <script src="main.js"></script> -->
+<script src="js/main.js"></script>
 </head>
 <body>
     <div class="contNegro">
@@ -106,33 +106,6 @@
             </div>
         </div>
     </div>
-    
-    <script>
-        function darkMode(){
-            document.getElementById('estilo').href = 'css/dark-style.css';
-            document.getElementById('btnDarkMode').style = 'display: none';
-            document.getElementById('btnLightMode').style = 'display: block';
-            document.getElementById('logotipo').src = 'img/Ryanair-emblema.png';
-            if (agrandar = true) {document.getElementById('estilo').href = 'css/dark-zoom.css';};
-        }
-        function lightMode(){
-            document.getElementById('estilo').href = 'css/style.css';
-            document.getElementById('btnDarkMode').style = 'display: block';
-            document.getElementById('btnLightMode').style = 'display: none';
-            if (agrandar = true) {document.getElementById('estilo').href = 'css/zoom.css';};
-        }   
-        
-        function agrandar(){
-            document.getElementById('estilo').href = 'css/zoom.css';
-            document.getElementById('btnAgrandar').style = 'display: none';
-            document.getElementById('btnReducir').style = 'display: block';
-        }   
-        function reducir(){
-            document.getElementById('estilo').href = 'css/style.css';
-            document.getElementById('btnAgrandar').style = 'display: block';
-            document.getElementById('btnReducir').style = 'display: none';
-        }   
-    </script>
 
 </body>
 </html>
