@@ -1,0 +1,33 @@
+ESTÁNDAR WCAG 
+∆
+https://www.w3.org/TR/WCAG21/#contrast-minimum
+
+
+CONTRASTE DE COLOR
+
+https://developer.mozilla.org/es/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast
+
+JS y ACCESIBILAD
+
+https://developer.mozilla.org/es/docs/Learn/Accessibility/CSS_and_JavaScript#color_and_color_contrast
+
+DARKMODE JS
+
+<script>
+        function darkMode(){
+          document.getElementById('estilos').href = 'css/darkMode.ccs'
+          document.getElementById('logotipo').src = 'img/logoDark.jpg'
+        }
+      </script>
+
+
+	1. EJERCICIO DE APOYO
+Localiza un proyecto web que no cumpla con el estándar de accesibilidad WCAG
+
+VISBUG
+https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc
+
+V
+
+
+
