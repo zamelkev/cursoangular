@@ -27,6 +27,24 @@ Localiza un proyecto web que no cumpla con el estándar de accesibilidad WCAG
 VISBUG
 https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc
 
+
+PLAN DE ACCIÓN:
+	1.     Durante las clases seguiremos avanzando materia y proponiendo ejercicios relacionados con la nueva materia
+	2. Cada uno de los implicados en la estrategia "TODOS A UNA", deben comentar el punto en el que se han quedado atascados.
+	3. Durante las clases, cuando se estén realizando los ejercicios del punto 1, los alumnos implicados en el punto 2 seguirán la hoja de ruta que la profesora ha designado para ellos. 
+
+EXTENSIONES PARA GITHUB
+
+	* Git Extension Pack
+	* Github Codespaces
+	* Open in Github
+	* Remote Repositories
+
+CHEATSHEET MAKDOWN GUIDE
+https://www.markdownguide.org/cheat-sheet/
+ 
+
+    
 V
 
 
