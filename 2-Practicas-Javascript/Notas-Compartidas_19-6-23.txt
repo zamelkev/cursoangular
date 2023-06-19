@@ -4,14 +4,37 @@ https://regex101.com/
 https://cheatography.com/davechild/cheat-sheets/regular-expressions/
 
 Validación personalizada
-
 <script>
-                var input = document.getElementById('url')
-                input.oninvalid = function(event){
-                    event.target.setCustomValidity('Esta url no me vale')
-                }
-            </script>
-            
+	var input = document.getElementById('url') input.oninvalid = function(event){
+	    event.target.setCustomValidity('Esta url no me vale')
+	}
+</script>
 https://www.w3schools.com/jsref/event_oninvalid.asp
 
+PAUSAR UN MEDIA
+HTMLMediaElement.pause()
+https://www.w3schools.com/tags/av_met_pause.asp
+
+https://developer.mozilla.org/es/docs/Web/API/HTMLMediaElement/pause
+
+Expresiones regulares
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_expressions
+Validador --> https://regex101.com/
+
+Métodos de presentación
+
+POWTOON
+PREZI
+
+INTERFACES
+	1. ¿Cuál es el objetivo principal de mi aplicación? Visualizar video en streaming
+	2. ¿Objetivos secundarios?
+		2.1. Visualizar una película indeterminada
+		2.2. Visualizar una película determinada
+		2.3. Visualizar una película de mi lista
+
+	* Planificación
+	* TEMA del PROYECTO.
+	* Etapa de investigación (interfaces y reseñas de la competencia, usuarios)
+	* Prototipo
 
