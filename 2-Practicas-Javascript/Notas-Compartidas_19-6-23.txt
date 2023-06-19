@@ -11,3 +11,7 @@ Validación personalizada
                     event.target.setCustomValidity('Esta url no me vale')
                 }
             </script>
+            
+https://www.w3schools.com/jsref/event_oninvalid.asp
+
+
