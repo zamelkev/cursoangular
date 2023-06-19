@@ -1,0 +1,13 @@
+Regular Expresión
+https://regex101.com/
+
+https://cheatography.com/davechild/cheat-sheets/regular-expressions/
+
+Validación personalizada
+
+<script>
+                var input = document.getElementById('url')
+                input.oninvalid = function(event){
+                    event.target.setCustomValidity('Esta url no me vale')
+                }
+            </script>
