@@ -26,10 +26,36 @@ WHERE TO JS (de mejor a peor)
 GESTIÓN DE PROYECTOS
 https://www.atlassian.com/software/jira
 
+PLUGINS FIGMA
+	* Figma to Angular Component
+	* Automatic Style Guides
+	* Html Generator
+	* Unsplash
+	* Photos
+	* Noisy Gradients
+	* IconScout
+	* Iconify
+	* Image Palette
+	* Rename It
+	* Galileo AI (recomiendo apuntaros a lista de espera) https://www.usegalileo.ai/
+	* Blush (ilustraciones)
+	* Autoflow
+	* remove BG
 
 
+IA para LOGOTIPOS
 
+ACTIVIDAD VIDEO EN STREAMING
 
+1 Define los objetivos y las interacciones de la interfaz de home de una aplicación de video en streaming (netflix, amazon prime, disney +...)
+	1. Objetivos
+		1.1. Visualizar un contenido determinado
+			1.1.1. Buscando una película en el buscador: BUSCADOR (SearchBar)
+			1.1.2. Accediendo a mi lista y reproduciendo directamente el contenido
+		1.2. Visualizar un contenido indeterminado
+			1.2.1. 
+		1.3. Cambiar de perfil
+		1.4. Acceder configuración
 
 
 
