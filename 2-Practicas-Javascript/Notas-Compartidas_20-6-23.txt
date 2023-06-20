@@ -1,4 +1,4 @@
-RECOPILATORIO DE JUEGOS PARA APRENDER A PROGRAMAR
+wRECOPILATORIO DE JUEGOS PARA APRENDER A PROGRAMAR
 
 https://www.freecodecamp.org/espanol/news/12-juegos-gratuitos-de-programacion-para-aprender-siendo-principiante/
 
@@ -50,13 +50,17 @@ ACTIVIDAD VIDEO EN STREAMING
 1 Define los objetivos y las interacciones de la interfaz de home de una aplicación de video en streaming (netflix, amazon prime, disney +...)
 	1. Objetivos
 		1.1. Visualizar un contenido determinado
-			1.1.1. Buscando una película en el buscador: BUSCADOR (SearchBar)
-			1.1.2. Accediendo a mi lista y reproduciendo directamente el contenido
+			1.1.1. Buscando una película en el buscador: BUSCADOR (SearchBar) -- Interfaz buscador --
+			1.1.2. Accediendo a mi lista y reproduciendo directamente el contenido. BOTÓN "MI LISTA" -- Interfaz especificación categoria --
 		1.2. Visualizar un contenido indeterminado
-			1.2.1. 
+			1.2.1. Categorías BOTÓN "CATEGORÍAS" + SLIDERS -- Interfaz especificación categoria -- & -- Interfaz de especificación de película --
+			1.2.2. (Ofertas y Descuentos) Estrenos / Las mejores películas gratis SLIDER PRINCIPAL & SUBMENÚ DE CATEGORÍAS
 		1.3. Cambiar de perfil
-		1.4. Acceder configuración
+			1.3.1. opciones de perfil (idioma, imagen, dirección...) BOTÓN AVATAR PERFIL --Interfaz perfil --
+		1.4. Acceder configuración 
+			1.4.1. opciones de configuración (subtítulos, método pago..) SUBCATEGORÍA DE BOTÓN AVATAR PERFIL / BOTÓN CONFIG 
 
+NO MÁS DE 9 INTERACCIONES EN UNA INTERFAZ, LO RECOMENDADO SON 7
 
 
 
