@@ -1,0 +1,35 @@
+RECOPILATORIO DE JUEGOS PARA APRENDER A PROGRAMAR
+
+https://www.freecodecamp.org/espanol/news/12-juegos-gratuitos-de-programacion-para-aprender-siendo-principiante/
+
+https://roadmap.sh
+
+PARA EL VIERNES/LUNES (PROYECTO)
+	* Planificación.
+	* Estudio competencia (reseñas y análisis de las interfaces)
+	* Prototipo de las interfaces (no es el diseño) en diagrams (https://www.drawio.com), Adobe XD, Whimsical o Figma
+		* Esquema de cada interfaz
+			* interacciones principales
+		* Mapa de navegación entre esas interfaces.
+
+Descargar Creative Cloud
+https://www.adobe.com/es/creativecloud/desktop-app.html
+
+https://www.adobe.com/es/products/catalog.html#category=creativity-design
+
+
+WHERE TO JS (de mejor a peor)
+1. archivo de js vinculado al html con el atributo defer.
+2. justo antes de la etiqueta del cierre de body (link o incrustado).
+3. script en html (incrustado) justo detrás del código html al que queremos que afecte.
+
+GESTIÓN DE PROYECTOS
+https://www.atlassian.com/software/jira
+
+
+
+
+
+
+
+
