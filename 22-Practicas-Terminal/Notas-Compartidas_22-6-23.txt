@@ -42,15 +42,69 @@ RETO:
 -------------------------------------------
 COMANDOS 
 
+	VIM (secuencia de trabajo)
+		
+		0.1. Escribir el mensaje
+		0.2. Pulsar ESC para acceder al modo de comandos.
+		0.3. Salir sin guardar-> ESC + :q!
+		0.4. Salir guardando -> ESC + :wq
+			0.4.1. comando "a" -> ESC +:wa (guarda todos los cambios sin salir); ESC +:qa (salgo de todos los archivos de VIM que esté editando sin guardar)
+PATRONES .GITIGNORE
+	EJEMPLO:echo  *.[o] > .ignore
+	En este patrón, lo que le estamos diciendo es que ignore todos los archivos que finalicen con .o
+	
+	*.["info"] 
+	En este patrón, lo que le estamos diciendo es que ignore todos los archivos que finalicen con .info
+	
+	* [abc] -> cualquier caracter dentro de los corchetes (a, b o c)
+	* [0-9] -> Hace referencia a cualquier número entre 0 y 9
+	* [a-z] -> Hace referencia a cualquier letra (carácarter) entre "a" y "z"
+	
+	+
+	
+	* # --> Se ignoran las líneas en blanco y también aquellas que comiencen con #
+	* / --> Los patrones que comienzan con una / evitan recursividad. Los patrones que terminan con una barra especifican un directorio
+	* .[] --> para añadir un patrón indicando que ignore los archivos que terminen con . + letras que yo he añadido en el patrón
+	* ! --> Este símbolo nos permite negar patrones. Se añade al principio del propio patrón
 
+EJEMPLO DE ARCHIVO .GITIGNORE
+
+#ignorar todos los archivos acabados en "x"
+	*.x
+	
+#Hacer una excepción para no ignorar un archivo en concreto acabado en "x"
+	!archivo.x
+	
+#ignore solo el archivo READMEp ubicado en la RAIZ (en este ejemplo tendríamos otro archivo READE localizado en otra ubicación que no es la raíz, y queremos que ignose solamente el READE de la raíz)
+	/README
+	
+#ignorar archivo css/style.css, pero no queremos que ignore css/pyct/style.css
+	css/*.css
+	
+#No ignorar archivo css/style.css, pero sí queremos que ignore css/pyct/style.css
+	css/**/*.css
+	
+#Ignorar todos los archivos que tenemos dentro de un directorio
+	/directorio
+	
+	
+NUEVO PROTOCOLO GIT PARA CLONAR REPOSITORIOS
+
+git:// o usuario@servidor:ruta/del/repositorio.git 
 
 
 
 
 
 DUDAS
-	* no puedo posicionarme en el escritorio
-	* 
+	* no puedo posicionarme en el escritorio Hay que hacer igual que ayer no? Utiliza los comandos CD y navegar por la jerarquía de carpetas hasta llegar a mi escritorio.
+cd users 
+cd "mi usuario"
+cd Desktop
+
+	* no recuerdo como me ayudaste ayer, me podrias echar una mano con este ejercicio???? 
+
+
 
 
 
