@@ -1,0 +1,74 @@
+	cd../ESTRUCTURA DE LA CLASE
+	1. Comandos
+	2. Git 
+	3. DUDAS PROYECTO
+----------------
+4. Angular
+5. Ionic
+
+
+DUDAS 22/06/23
+	*  Lu: configuración GIT (local/servidor remoto)
+	* Jblas: ¿comenzamos en angular sin saber javascript? Lu: se va emparejando y complementando
+	* history en windows? history
+"history" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable. Pulsando la tecla F7 
+	* Sanchi: ahora perdí el color blanco, cuál es? daltónico me mareo ;)  El color blanco es el 7
+	* Esto es el MS-DOS de los disquetes de toda la vida
+	* Sanchi: qué funcionalidad práctica tiene esto pudiendo usar el explorador de archivos? ok,ok, ahora tiene sentido
+	* Mcc:Despues CUANDO TERMINES TODO lo de git, podrias pasar el history completo? (ya lo hice en daw y solo quierio revisar si has hecho algo nuevo)
+	* Eneko: Al realizar un rm -r, estamos eliminando un directorio y un archivo verdad? Mcc: Al hacer rm eliminamos lo que queremos, y el "-r" es para que sea rescursivo, que todo lo de la carpeta, se elimine. Asi que si, elimina directorio y archivos dentro. En el caso de los archivos, en linux y dependiendo de la configuración del archivo deberemos forzarlo
+	* Jblas: al poner date en windows: C:\Windows\System32>date
+La fecha actual es: 22/06/2023
+Escriba la nueva fecha: (dd-mm-aa) Como puedo abortar eso? control + C // Esc
+	* Sanchi: history en W11 no lo reconoce. Ya está contestado arriba, en win ves el history con F7
+	* Para borrar carpeta raiz y contenido (W) rd nombre carpeta /s, pide confirmar
+	* 
+. Y        o estoy un poco perdido la verdad esto no lo he usado nunca
+	* ¿Cómo se movía el contenido de un archivo a otro desde linux? 
+	* cp </path/to/source/filename> </path/to/target/filename>
+	* con cat se muestra el contenido del archivo
+
+
+RETO:
+    1. Crea un archivo de texto primero.txt con un contenido "soy el contenido que viaja". Crea otro archivo de texto segundo.txt. Mueve el contenido del primer archivo al segundo. 
+    SOLUCIÓN: 
+	type primero.txt > segundo.txt | type nul > primero.txt
+    
+    MALA :)
+    
+    2. crea un archivo de texto que incluya tu historial
+    SOLUCIÓN: doskey /history > historial.txt
+-------------------------------------------
+COMANDOS 
+
+
+
+
+
+
+
+DUDAS
+	* no puedo posicionarme en el escritorio
+	* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
