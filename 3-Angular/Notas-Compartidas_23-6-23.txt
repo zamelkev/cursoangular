@@ -1,0 +1,40 @@
+METODOLOGÍA
+	* Todos los micrófonos cerrados.
+	* Cuando se pregunte por dudas, para especificar la duda se levanta la mano.
+	* Las dudas se pueden disponer en NOTAS COMPARTIDAS en el apartado Dudas
+	* Formato duda: se especifica el nombre de quién la realiza y a continuación la duda. La respuesta a cada duda aparecerá subrayada.
+
+
+HOJA DE RUTA PARA HOY
+	1. Ionic (Angular)
+
+APUNTES
+https://ionicframework.com
+ANGULAR
+	SPA --> Single Page Aplication
+	* Arquitectura basada en componentes, que encapsulan su propia lógica
+	* Las redirecciones son gestionadas por el navegador, en un proyecto web son gestionadas por el servidor
+	* Binding de datos biddireccional
+	* Directivas de angular: manipulación directa del DOM
+	* Herramientas Testing integrado: pruebas unitarias y de integración
+	* Servicios: integración con APIS
+	* Módulos 
+
+IONIC + ANGULAR
+	Instalación: npm i -g @ionic/cli
+	Crear app: 
+	1. Ubicarme en el directorio en el que quiero crear mi carpeta
+	2. Ejecutar los comandos: ionic start holaMundo tabs
+		-Angular
+		-NgModules
+		-Crear cuenta? Y
+		-Instalar Ionic Lab? Y
+	
+DUDAS
+Ar/Lu: versionado npm
+jesus: no me lo reconoce el cmd
+Pablo: para entorno de desarrollo en ionic se debe usar siempre los comandos propios de ionic? "npm run start" abre lo mismo en localhost pero en otro puerto
+Kevin: No funcionan los comandos de ionic desde el terminal de vscode, pero sí desde el terminal de linux, pese a no haberle puesto el sudo en ningún momento
+Manel: Y para aplicar el @media, solo aplicar lo que quiera en css o ionic tiene algo para aplicarlo automaticamente
+
+	* 
