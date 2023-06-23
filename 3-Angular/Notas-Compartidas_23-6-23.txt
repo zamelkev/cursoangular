@@ -29,12 +29,19 @@ IONIC + ANGULAR
 		-NgModules
 		-Crear cuenta? Y
 		-Instalar Ionic Lab? Y
+		
+CAMBIAR A VERSIÓN 6 IONIc (para poder trabajar con ionic lab)
+	1. npm uninstall -g @ionic/cli
+	2. ionic info
+	3. npm i -g @ionic/cli@6
+	4. npm i -g @ionic/angular@6
+	Ahora ya podemos utilizar los comandos "ionic serve --lab" :)
 	
 DUDAS
 Ar/Lu: versionado npm
 jesus: no me lo reconoce el cmd
 Pablo: para entorno de desarrollo en ionic se debe usar siempre los comandos propios de ionic? "npm run start" abre lo mismo en localhost pero en otro puerto
 Kevin: No funcionan los comandos de ionic desde el terminal de vscode, pero sí desde el terminal de linux, pese a no haberle puesto el sudo en ningún momento
-Manel: Y para aplicar el @media, solo aplicar lo que quiera en css o ionic tiene algo para aplicarlo automaticamente
+
 
 	* 
