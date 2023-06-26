@@ -1,8 +1,19 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="end"><!--con slot se posiciona-->
+      <ion-button>
+        <ion-icon name="heart-half-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon name="heart-half-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
     <ion-title>
-      Tab 2
+      Hola Mundo 2
     </ion-title>
+    <ion-action-sheet trigger="open-action-sheet" header="Actions" ></ion-action-sheet>
   </ion-toolbar>
 </ion-header>
 
