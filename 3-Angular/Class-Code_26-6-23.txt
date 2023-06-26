@@ -89,11 +89,15 @@ PAGE.SCSS ----------------------------------------------------------------
         <a slot="end" href="">Ver</a>
       </ion-item>
     </ion-list>
+     <h1>Título sección</h1>
+  	<p>Subtítulo sección</p>
+    <img src="../../assets/img/Captura de Pantalla 2023-06-26 a las 13.11.16.png" alt="">
+    
   </ion-card>
 </ion-content>
 
 
-PAGE.SCSS
+PAGE.SCSS-------------------------------------------------------------------
 
 .md ion-title{
     display: flex;
@@ -105,3 +109,23 @@ PAGE.SCSS
 ion-list{
     padding: 0px !important;
 }
+
+h1{
+    font-family: 'primary';
+}
+p{
+    font-family: 'secondary';
+}
+
+VARIABLES.SCSS-------------------------------------------------------------- (para poder enlazar una tipografía, primero debo añadira a un directorio fonts que cree en el directirio ASSETS)
+
+@font-face {
+  font-family: 'primary' ;
+  src: url('../assets/fonts/Agdasima-Bold.ttf');
+}
+@font-face {
+  font-family: 'secondary' ;
+  src: url('../assets/fonts/Agdasima-Regular.ttf');
+}
+
+..
