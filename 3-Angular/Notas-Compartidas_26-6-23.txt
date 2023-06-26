@@ -4,7 +4,7 @@ CLASE DE HOY
 
 --> Añade color a la cabecera utilizando una variable de color.
 	1. Angular + Ionic
-	2. Ejercicio Angular + Ionic
+	2. Ejercicio Angular + Ionic : Desarrolla el home de una app de viajes, en el que se muestren diferentes cards, que incluyan una imagen del destino y los datos (nombre ruta, salida y destino, precio, categoria...) deben tener diferentes tipografías, colores, tamaños... 
 
 REUNIONES GRUPOS
 	* Grupo 1
@@ -14,7 +14,8 @@ DUDAS
 	* Pablo: porque usar el archivo variables.scss y no el archivo tab1.page.scss para aplicar estilos? Supongo que porque así las podremos reutilizar en otras vistas o componentes; cuando creemos estilos que sólo se vayan a representar en una vista, seguramente usaremos la hoja de estilos de cada componente en cuestión
 	* Comandos para volver a la versión 6: 
 		* Primero se desinstala ionic: npm uninstall -g @ionic/cli
-		* Se instala la versión 6: npm i -g @ionic/cli@6
+		* Se instala la versión 6 de IONIC: npm i -g @ionic/cli@6
+		* Para visualizar el proyecto: ionic serve --lab
 
 
 SOLUCIONES
