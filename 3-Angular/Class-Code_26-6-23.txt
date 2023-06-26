@@ -1,0 +1,107 @@
+PAGE.HTML -------------------------------------------------------------------
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon color="success" name="heart-half-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon name="heart-half-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      Hola Mundo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card color="primary">
+    <ion-list color="warning">
+      <ion-item color="secundary">
+        <ion-icon slot="start" name="planet"></ion-icon>
+        <h6>Título</h6>
+        <a slot="end" href="">Ver</a>
+      </ion-item>
+      <ion-item color="success">
+        <ion-icon slot="start" name="barbell"></ion-icon>
+        <h6>Título</h6>
+        <a slot="end" href="">Ver</a>
+      </ion-item>
+      <ion-item color="danger">
+        <ion-icon slot="start" name="ellipsis-vertical"></ion-icon>
+        <h6>Título</h6>
+        <a slot="end" href="">Ver</a>
+      </ion-item>
+      <ion-item color="dark">
+        <ion-icon slot="start" name="home"></ion-icon>
+        <h6>Título</h6>
+        <a slot="end" href="">Ver</a>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+</ion-content>
+
+
+
+PAGE.SCSS ----------------------------------------------------------------
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon color="success" name="heart-half-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon name="heart-half-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      Hola Mundo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card color="primary">
+    <ion-list color="warning">
+      <ion-item color="secundary">
+        <ion-icon slot="start" name="planet"></ion-icon>
+        <h6>Título</h6>
+        <a slot="end" href="">Ver</a>
+      </ion-item>
+      <ion-item color="success">
+        <ion-icon slot="start" name="barbell"></ion-icon>
+        <h6>Título</h6>
+        <a slot="end" href="">Ver</a>
+      </ion-item>
+      <ion-item color="danger">
+        <ion-icon slot="start" name="ellipsis-vertical"></ion-icon>
+        <h6>Título</h6>
+        <a slot="end" href="">Ver</a>
+      </ion-item>
+      <ion-item color="dark">
+        <ion-icon slot="start" name="home"></ion-icon>
+        <h6>Título</h6>
+        <a slot="end" href="">Ver</a>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+</ion-content>
+
+
+PAGE.SCSS
+
+.md ion-title{
+    display: flex;
+    justify-content: center !important;
+}
+.md .toolbar-title{
+    width: fit-content;
+}
+ion-list{
+    padding: 0px !important;
+}
