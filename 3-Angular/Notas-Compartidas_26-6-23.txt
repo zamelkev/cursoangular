@@ -20,3 +20,6 @@ DUDAS
 
 SOLUCIONES
 >Actualizar las dependencia: npm i
+
+
+Correo Alejandra Espinosa Rincón: alesrin@icloud.com
