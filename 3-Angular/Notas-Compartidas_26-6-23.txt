@@ -1,0 +1,21 @@
+CLASE DE HOY
+
+	1. Reto: Crea dos interacciones con iconos en la cabecera de tu proyecto Ionic, uno a la derecha y otro a la izquierda y aplicarles color utilizando las variables del color predeficinas en el archivos variables.scss
+
+--> Añade color a la cabecera utilizando una variable de color.
+	1. Angular + Ionic
+	2. Ejercicio Angular + Ionic
+
+REUNIONES GRUPOS
+	* Grupo 1
+
+DUDAS
+
+	* Pablo: porque usar el archivo variables.scss y no el archivo tab1.page.scss para aplicar estilos? Supongo que porque así las podremos reutilizar en otras vistas o componentes; cuando creemos estilos que sólo se vayan a representar en una vista, seguramente usaremos la hoja de estilos de cada componente en cuestión
+	* Comandos para volver a la versión 6: 
+		* Primero se desinstala ionic: npm uninstall -g @ionic/cli
+		* Se instala la versión 6: npm i -g @ionic/cli@6
+
+
+SOLUCIONES
+>Actualizar las dependencia: npm i
