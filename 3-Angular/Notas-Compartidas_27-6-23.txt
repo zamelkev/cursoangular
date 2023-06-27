@@ -1,0 +1,48 @@
+CLASE DE HOY
+	* Primera parte: librería de IONIC
+	* Segunda parte: Crear proyecto de Angular
+
+PROYECTO
+	* Grupo 3: Verificar notion y figma para comenzar a programar.
+
+
+COMANDOS NG
+	1. Instalar el cli de angular: 
+	npm i -g @angular/cli
+2. Comprobar la versión de angular que tenemos intalada
+	ng v
+3. Comenzar a trabajar con angular
+	* Iniciar un nuevo proyecto: ng new [nombre-proyecto]
+		* Angular Routing --> Yes
+		* Stylesheet format --> CSS
+	* Visualizar el proyecto en el navegador: ng serve --open
+	* A continuación abrimos el localhost:4200 en nuestro navegador para visualizar el proyecto
+4. Crear un nuevo componente: ng generate component [nombre-del-componente]
+5. Añadir dependecias Angular Material: 
+ng add @angular/material
+
+ANGULAR MATERIAL --> https://material.angularjs.org/latest/getting-started
+
+
+PASOS ESPECIFICADOS EN https://angular.io/guide/setup-local
+
+COMANDO AYUDA NG --> ng help (W) | ng help (unix)
+
+
+DOCUMENTACIÓN CLI
+https://angular.io/cli
+https://ionicframework.com/docs/cli
+
+COMANDOS PARA VOLVER A LA VERSIÓN 13
+	* Desinstalamos la versión actual: npm uninstall -g @angular/cli
+	* Instalamos la versión 13: npm i -g @angular/cli@13
+
+DUDAS
+	* Jesus: No me carga el IonicLab
+	* Cual era el Comando para entrar al LocalHost? Solo en el navegador donde pone google.es, pon localhost:4200
+	* Pablo: ¿Siempre que queramos crear un componente se hace desde linea de comandos? ¿En Angular nos olvidamos de crear carpetas y archivos manualmente en VSCode?
+	* Manel: Al crear un proyecto, en ionic, al añadir "tabs", crea un proyecto y crea 3 paginas para tabs de una plantilla de ionic. Angular tiene algo asi tambien para crear paginas "default"??
+	* Pablo: en el github de angular el comando para añadir angulat/material es distinto: npm install angular-material (entiendo que "install" y "add" son equivalentes)
+
+
+
