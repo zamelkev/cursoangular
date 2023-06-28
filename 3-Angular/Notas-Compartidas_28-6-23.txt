@@ -1,0 +1,26 @@
+CLASE DE HOY
+	* Explicación sobre los conceptos básicos de Angular
+		* Módulos
+		* Componentes
+	* Angular Material
+	* Crear Módulos + componentes
+
+DUDAS
+	* 
+
+
+RECURSOS
+https://material.angular.io/
+https://docs.angular.lat/docs
+https://docs.angular.lat/guide/architecture
+https://docs.angular.lat/cli/generate
+
+
+COMANDOS
+	* Generar nuevo módulo: ng generate module [nombre-modulo]
+	* Generar nuevo componente: ng generate component [nombre-modulo/nombre-nuevo-componente]
+		* el nombre del módulo debe definirse igual que lo ha renombrado Angular (si nosotros hemos utilizado camelCase, Angular habrá separado con guiones las palabras del nombre de nuestro módulo. Debemos utilizar la nomenclatura que ha definido angular en el nombre de nuestro módulo).
+
+
+
+
