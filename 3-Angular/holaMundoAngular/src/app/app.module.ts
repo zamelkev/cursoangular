@@ -3,13 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Prueba1Component } from './prueba1/prueba1.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AboutComponent } from './about/about.component';
+import { VistaAboutComponent } from './about/vista-about/vista-about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Prueba1Component
+    AboutComponent,
+    VistaAboutComponent
   ],
   imports: [
     BrowserModule,
