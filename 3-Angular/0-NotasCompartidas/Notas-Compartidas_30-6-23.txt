@@ -7,7 +7,7 @@ CLASE DE HOY
 DUDAS
 	* Problemas a la hora de instalar y ejecutar Ionic 6.
 	* Cuando lanzamos el start de ionic: NGmodules or Standalone? NGMODULES
-	* 
+	*  estoy teniendo problemas para que en los componentes anidados se hereden las propiedades del grid del componente padre
 
 
 GRUPOS
