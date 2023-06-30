@@ -1,0 +1,21 @@
+CLASE DE HOY
+	* Ejercicio NG (SPA)
+	* COMPONENTE ION-GRID (Responsive)
+	* Ejercicio Ionic (App Híbridas)
+	* DUDAS y PROBLEMAS
+
+DUDAS
+	* Problemas a la hora de instalar y ejecutar Ionic 6.
+	* Cuando lanzamos el start de ionic: NGmodules or Standalone? NGMODULES
+	* 
+
+
+GRUPOS
+	* Grupo 2
+
+APORTES:
+	* Ariel: una cosa interesante: se pueden instalar google fonts via npm: npm install -g google-fonts-offline
+
+
+
+
