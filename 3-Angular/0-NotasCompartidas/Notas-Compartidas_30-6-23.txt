@@ -14,7 +14,12 @@ GRUPOS
 	* Grupo 2
 
 APORTES:
-	* Ariel: una cosa interesante: se pueden instalar google fonts via npm: npm install -g google-fonts-offline
+	* Ariel: una cosa interesante: se puede instalar la dependencia google fonts via npm: npm install -g google-fonts-offline
+	* Instalar dependencia material icons:https://www.npmjs.com/package/material-icons
+	* GRID de IONIC: https://ioynicframework.com/docs/api/grid
+	* Instalar dependencia Animate.css: npm install animate.css --save
+
+
 
 
 
