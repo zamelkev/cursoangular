@@ -1,0 +1,15 @@
+/* ESTILOS GENERALES */
+
+@font-face {
+    font-family: 'primaryT' ;
+    src: url(/assets/fonts/Amazon\ Ember\ Cd\ RC\ Thin.ttf);
+}
+@font-face {
+    font-family: 'primaryM';
+    src: url(/assets/fonts/Amazon\ Ember\ Display\ Medium.ttf);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34, 34, 34);
+}
