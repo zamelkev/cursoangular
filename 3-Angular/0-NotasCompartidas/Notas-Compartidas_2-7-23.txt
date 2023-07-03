@@ -12,6 +12,7 @@ DUDAS
 
 	* puedes poner los comandos de crear página, se me olvida.
 	ionic g page tab4 (visto, gracias)
+	* (Sanchi) Sube el código a notion, tengo que verlo con calma esta tarde.
 
 
 ENLACES
