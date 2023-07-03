@@ -1,0 +1,20 @@
+CLASE DE HOY
+
+	1. Corrigiendo ejercicios notion + dudas.
+	2. Crear páginas con IONIC 
+	3. ROUTER (Navegar entre páginas)
+	4. Crear un Menú Lateral en APP.COMPONENT
+
+GRUPOS
+	* 
+
+DUDAS
+
+	* puedes poner los comandos de crear página, se me olvida.
+	ionic g page tab4 (visto, gracias)
+
+
+ENLACES
+
+Grid-Bootstrap: https://ionicframework.com/docs/api/grid
+
