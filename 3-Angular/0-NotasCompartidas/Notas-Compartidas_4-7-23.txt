@@ -22,6 +22,7 @@ ENLACES DE INTERÉS
 
 	* CSS Grid: https://www.w3schools.com/css/css_grid.asp
 	* Github: https://github.com/alesrin/spotify
+	* tipografías angular material: https://material.angular.io/guide/typography
 
 
 
