@@ -1,0 +1,28 @@
+y
+CLASE DE HOY
+
+	1. Ejercicio Spotify ANGULAR
+	2. Rutas
+	3. Directiva NgIf
+	4. Introducción a TS
+	5. Bucles en JS
+
+
+
+DUDAS
+
+	* Manel: De ayer. El menu desplegable lateral me aparece transparente, aunqeu funcione, no se puede ver ese menú. MANO LEVANTADA
+	* Eneko: para crear la nueva app, ¿Qué usamos?, ionic o angular.
+	* Eneko: ¿Este ejercicio lo haremos solos o lo haremos contigo? Lo comento porque no controlo bien todos los aspectos que hemos estudiado.
+	* Ariel: vamos a ver algo de SASS para Angular? lo pregunto xq tuve problemas con el header de Amazon para heredar clases de CSS.(media queries y parent >> child entre componentes). INTENTAREMOS VER LO MÁXIMO POSIBLE PERO RESOLVEMOS TU PROBLEMA AHORA. MANO LEVANTADA
+	* Comando para generar esto? No tengo claro como empezarlo de Angular en vez de Ionic. Resuelto.
+
+
+
+
+
+
+
+
+
+
