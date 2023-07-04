@@ -1,4 +1,3 @@
-y
 CLASE DE HOY
 
 	1. Ejercicio Spotify ANGULAR
@@ -11,11 +10,19 @@ CLASE DE HOY
 
 DUDAS
 
-	* Manel: De ayer. El menu desplegable lateral me aparece transparente, aunqeu funcione, no se puede ver ese menú. MANO LEVANTADA
 	* Eneko: para crear la nueva app, ¿Qué usamos?, ionic o angular.
 	* Eneko: ¿Este ejercicio lo haremos solos o lo haremos contigo? Lo comento porque no controlo bien todos los aspectos que hemos estudiado.
 	* Ariel: vamos a ver algo de SASS para Angular? lo pregunto xq tuve problemas con el header de Amazon para heredar clases de CSS.(media queries y parent >> child entre componentes). INTENTAREMOS VER LO MÁXIMO POSIBLE PERO RESOLVEMOS TU PROBLEMA AHORA. MANO LEVANTADA
-	* Comando para generar esto? No tengo claro como empezarlo de Angular en vez de Ionic. Resuelto.
+	* Comando para generar esto? No tengo claro como empezarlo de Angular en vez de Ionic. 
+	* Manel: Ya tengo creado el ejercicio """creo""" pero tengo plantillas de canciones y no se como pillar las variables del titulo, descripcion o imagen y de donde las inserto?.
+	* angular-material: lo instalamos global como dependencia en el proyecto verdad? Sí, como dependencia y luego tenemos que ir importando los componentes que queramos utilizar en el proyecto, tanto en el módulo raiz como en el módulo en el que lo quiero utilizar
+
+
+ENLACES DE INTERÉS
+
+	* CSS Grid: https://www.w3schools.com/css/css_grid.asp
+
+
 
 
 
