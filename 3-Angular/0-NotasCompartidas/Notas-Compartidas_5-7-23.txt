@@ -3,7 +3,7 @@
 	* Aplicación "Akinator" - Data Binding, Directiva estructura NG IF
 
 DUDAS
-	* 
+	* Eneko: ¿Constructor es la funcion que se encargaba de crear los objetos?
 
 GRUPOS
 	* Grupo 3: Desplacamiento lateral cards. Capetas y subcapetas. Duda de variables. Dark theme padding es blanco only iOS. Estilo apliado o no ctrl+ ctrl-. Hover no molestar cards.
@@ -23,6 +23,9 @@ CUANDO TENGAMOS PROBLEMAS DE DEPENDECIAS:
 	4. Crear un archivo en el directorio raiz packa
 	5. Instalar de nuevo las dependencias: npm i
 	6. Recomendable: Instalar check-update
+
+
+
 
 
 
