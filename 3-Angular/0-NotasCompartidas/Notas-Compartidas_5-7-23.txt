@@ -1,0 +1,35 @@
+ CLASE DE HOY
+	* Ejercicio Routing
+	* Aplicación "Akinator" - Data Binding, Directiva estructura NG IF
+
+DUDAS
+	* 
+
+GRUPOS
+	* Grupo 3: Desplacamiento lateral cards. Capetas y subcapetas. Duda de variables. Dark theme padding es blanco only iOS. Estilo apliado o no ctrl+ ctrl-. Hover no molestar cards.
+
+
+TIPOS DE INICIO PARA NUESTRAS CLASES
+
+	1. Explicación teórica cuando abrimos un nuevo tema
+	2. Corrección de ejercicio de deberes
+	3. Realización de ejercicio práctico para poner a prueba los conocimientos adquiridos en la sesión anterior. 
+
+
+CUANDO TENGAMOS PROBLEMAS DE DEPENDECIAS:
+	1.  Borramos carpeta node_modules
+	2.  Recomendable: borrar package.json
+	3. Recomendable: limpiar cache: npm cache clean --force
+	4. Crear un archivo en el directorio raiz packa
+	5. Instalar de nuevo las dependencias: npm i
+	6. Recomendable: Instalar check-update
+
+
+
+
+
+
+
+
+
+
