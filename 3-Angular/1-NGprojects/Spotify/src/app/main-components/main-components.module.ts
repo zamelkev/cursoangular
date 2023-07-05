@@ -35,7 +35,6 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
     MatIconModule,
     MatToolbarModule,
     MatMenuModule,
-
     RouterModule
   ],
   exports: [
