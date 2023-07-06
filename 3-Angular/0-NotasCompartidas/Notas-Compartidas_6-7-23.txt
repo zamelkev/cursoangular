@@ -1,0 +1,45 @@
+PLANIFICACION
+	* Directivas 
+	* Directivas estructurales
+	* Parámetro NGModel
+	* Ejercicios directivas
+	* Ejercicios Minijuego
+	* Proyectos
+
+GRUPOS
+Hoy me reuniré con todos los grupos
+
+DUDAS
+	* constructor ejerce la funcion de interpretar o montar los objetos?
+	* 
+
+
+APUNTES
+	1. Crea un objeto en el constructor que contenga los nombre de tus comidas favoritas/superheroes. A continuación muestra el nombre de esta lista en tu html utilizando la directiva *ngFor. PUNTO EXTRA: utilizando un método onclick --> (click) crea un botón que muestre el contenido de este elemento.
+
+	1. Añade la dependencia de Bootstrap a este nuevo proyecto, añade dos componentes, uno con colores de contraste y otro sin ellos. Dependiendo si la variable contraste es true o es false se va a mostrar uno u otro. PUNTO EXTRA: Prueba ngStyle
+
+
+	1. Para este ejercicio vamos a vincular dos directivas dentro del mismo huesped. Crea dos menús (uno vegano y otro que incluya carne) dispuestos en una lista desordenada (ul) con type=none. Los menús, les vamos a crear con un array en el constructor, de tal forma que tendremos dos arrays, en el primero 3 platos veganos, en el segundo 3 platos que incluyan carne. Le preguntaremos al usuario si es vegano, en caso de que diga que sí, se mostrará con la directiva *ngFor el menú vegano. En caso de que diga que no, se mostrará con la directiva *ngFor el menú que incluye carne. 
+
+ARCHIVO
+
+<label>¿Eres vegano?</label>
+<input type="text" [(ngModel)]="vegano">
+<ul *ngIf="vegano == 'si'" type="none">
+<li *ngFor="let item of mvegan">{{ item }}</li>
+</ul>
+<ul *ngIf="vegano == 'no'" type="none">
+<li *ngFor="let item of mcarne">{{ item }}</li>
+</ul>
+
+ARCHIVO DE TS
+
+vegano : any = ''
+
+ mvegan : any = ['pasta', 'ensalada', 'legunbres']
+  
+  mcarne : any = ['pasta', 'ensalada', 'legunbres']
+
+
+
