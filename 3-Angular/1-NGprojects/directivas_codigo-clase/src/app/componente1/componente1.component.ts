@@ -8,21 +8,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Componente1Component implements OnInit {
 
+  
+
   mayor : string = 'mayor de edad'
 
   menor : string = 'menor de edad, no puedes acceder al site'
 
-  edad : any;
+  edad!: number; 
 
-  contraste : any = true
+  contraste : boolean = true
 
-  condicion : any = false
+  condicion : boolean = false
 
-  objeto : any = ['uno', 'dos', 'tres']
+  objeto : string[] = ['uno', 'dos', 'tres']
 
-  constructor() { }
+  
+
+  constructor() {
+    
+  }
 
   ngOnInit(): void {
   }
+
+
+
 
 }
