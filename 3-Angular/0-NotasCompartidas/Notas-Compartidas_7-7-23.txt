@@ -1,0 +1,35 @@
+CLASE DE HOY
+	* Asentando bases de JS y TS (tipos de datos para tipar nuestras variables. 
+	* Ejercicios 
+	* Directiva *ngSwitch
+	* Directiva de atributo *ngClass
+	* Directiva de atributo *ngStyle
+
+DUDAS
+Apuntes de todo esto donde?
+-> líneas 107 - 110: No sería mejor que pusieras OR en vez de &&?
+-> Línea 155: No sería <=?
+	* DONDE ENCONTRAR ESTOS APUNTES? En el repositorio del proyecto directivas que os pasé ayer:https://github.com/alesrin/directivas
+
+GRUPOS
+	* Grupo 5
+
+EJERCICIO
+
+1- En TypeScript, a partir del siguiente array que se proporciona: 
+
+valores : any[]  = [true, 5, false, "hola", "adios", 2];
+
+    a- Determinar cual de los dos elementos de texto es mayor.
+    b- Utilizando exclusivamente los dos valores booleanos del array, determinar los operadores necesarios para obtener un resultado true y otro resultado false.
+    c- Determinar el resultado de las cinco operaciones matemáticas realizadas con los dos elementos numéricos
+
+PUNTO EXTRA: utilizando la directiva *NgIf, muestra en la plantilla un texto que indique si el resultado es true o false. (unicamente necesitas dos elementos huesped en la plantilla que contengan esta directiva).
+
+
+
+
+
+
+
+
