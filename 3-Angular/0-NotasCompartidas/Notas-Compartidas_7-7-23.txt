@@ -1,13 +1,31 @@
 CLASE DE HOY
 	* Asentando bases de JS y TS (tipos de datos para tipar nuestras variables, operadores). 
 	* Ejercicios tipos de datos + operadores + *ngIf + *ngFor
-	*  
 
+GRUPOS
+	* 5
+	* 3
+
+https://github.com/alesrin/directivas
+
+EJERCICIOS
+
+1- 
     a- Determinar cual de los dos elementos de texto es mayor.
     b- Utilizando exclusivamente los dos valores booleanos del array, determinar los operadores necesarios para obtener un resultado true y otro resultado false.
     c- Determinar el resultado de las cinco operaciones matemáticas realizadas con los dos elementos numéricos
 
 PUNTO EXTRA: utilizando la directiva *NgIf, muestra en la plantilla un texto que indique si el resultado es true o false. (unicamente necesitas dos elementos huesped en la plantilla que contengan esta directiva).
+
+2- Crea dos listas en tu plantilla (HTML) en la que se muestren animales carnívoros y herbívoros. 
+La  primera lista mostrará 5 animales carnívoros y su título (nombre del grupo) será "Carnívoros". La segunda lista mostrará 5 animales herbivoros y el título  (nombre del grupo) será "Hervívoros". Todos los animales están contenidos en la misma variable.
+
+
+
+
+
+
+
 
 
 
