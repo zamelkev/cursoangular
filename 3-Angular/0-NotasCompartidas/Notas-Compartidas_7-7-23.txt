@@ -1,6 +1,6 @@
 CLASE DE HOY
-	* Asentando bases de JS y TS (tipos de datos para tipar nuestras variables. 
-	* Ejercicios 
+	* Asentando bases de JS y TS (tipos de datos para tipar nuestras variables, operadores). 
+	* Ejercicios tipos de datos + operadores + *ngIf + *ngFor
 	* Directiva *ngSwitch
 	* Directiva de atributo *ngClass
 	* Directiva de atributo *ngStyle
@@ -25,6 +25,10 @@ valores : any[]  = [true, 5, false, "hola", "adios", 2];
     c- Determinar el resultado de las cinco operaciones matemáticas realizadas con los dos elementos numéricos
 
 PUNTO EXTRA: utilizando la directiva *NgIf, muestra en la plantilla un texto que indique si el resultado es true o false. (unicamente necesitas dos elementos huesped en la plantilla que contengan esta directiva).
+
+
+
+
 
 
 
