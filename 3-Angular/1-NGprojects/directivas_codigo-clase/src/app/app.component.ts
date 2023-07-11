@@ -11,7 +11,7 @@ export class AppComponent implements OnInit{
   valores : any[]  = [true, 5, false, "hola", "adios", 2];
 
   //ejemploArray : tipodatos[] = [index0, index1, index2, index3, index4, index5..... n ]
-
+  
   edad! : number //aserción de asignación definitiva
   variableArray : any[] = ["soy un string", 3, true]
   numero? : number | undefined //Diferentes formas de indicar que el tipo de dato es opcional (puede variar entre los definidos, y si solo se define uno, la segunda opción será siempre undefined)
@@ -27,7 +27,7 @@ export class AppComponent implements OnInit{
 
 
   constructor(){
-     /* se ejecuta cuando creasuna instancia de una clase.
+     /* se ejecuta cuando creas una instancia de una clase.
     Es aquí, dentro del constructor, donde podemos aprovechar y decirle qué dependencias necesitamos cargar */
   }
 
@@ -44,28 +44,75 @@ export class AppComponent implements OnInit{
  console.log ( this.division)
   }
 
+  peopleByContry : any[] =[
+    {
+      'pais': 'España',
+      'personas': [
+        {
+          nombre:'Juan',
+          edad: 24
+        },
+        {
+          nombre: 'Pepe'
+        },
+        {
+          nombre: 'Jacinto'
+        }
+      ]
+    },
+    {
+      'pais': 'Italia',
+      'personas': [
+        {
+          nombre:'Giovanni'
+        },
+        {
+          nombre: 'Tonni'
+        },
+        {
+          nombre: 'Giorgina'
+        }
+      ]
+    }
+  ]
+
+  people: any[] = [ //Este array contiene una iteración de objetos
+    {    //El primer elemento del array tiene el index 0
+      "name": "Douglas  Pace", //name es una propiedad
+      "edad": 10
+    },
+    {
+      "name": "Mcleod  Mueller"//Los objetos en js pueden contener propiedades
+    },
+    {
+      "name": "Day  Meyers"
+    },
+    {
+      "name": "Aguirre  Ellis"
+    },
+    {
+      "name": "Cook  Tyson"
+    }
+  ];
+
+  
+
+
+
+
+
 }
 
-/* 
-hola
-adios
 
-z=23
-y=22
-x=21
-.
-.
-.
-.
-a= 1*/
 
 
 
 /* TIPOS DE DATOS EN JS Y EN TS 
 
-TS tipado superconjunto de JS. Cuenta con un transpiler
+TypeScript es un tipado superconjunto , lo que significa que agrega reglas sobre cómo se pueden usar diferentes tipos de valores. Sabemos que JavaScript es un lenguaje interpretado. Por lo que debe de ejecutarse para poder validarse y detectar errores. Esto implica tener que escribir todo el código y ejecutarlo para poder detectar un fallo, en caso de que haya un error. Este proceso en su totalidad termina volviéndose tedioso y muuuuy extenso. El transpiler de TypeScript proporciona la característica de comprobación de errores por lo que compilará el código y generará errores de compilación, si encuentra algún tipo de errores de sintaxis. Esto ayuda a resaltar los errores antes de ejecutar el script, ahorrandonos tiempo para poder seguir desarrollando. 
 
  **Tipos de datos en JS
+
  - Number (enteros y decimales) Valor en formato binario de 64 bits de doble precision IEEE 754 --> Puede representar valores números entre (-253 y -1) y 253 y 1.
  - BigInt (valores númericos que son demasiado grades)
  - String  (cadenas de caracteres)
@@ -80,6 +127,8 @@ TS tipado superconjunto de JS. Cuenta con un transpiler
 
 
  ** Tipos de Datos en Typescript
+
+ (los marcados con un . son los que dominaremos en la primera fase)
 .- Number (enteros y decimales)
 .- Array<tipo> (matriz homogénea del mismo tipo)
 - Tuple [type1, type2,... ] (tupla heterogena de tipos dist
@@ -190,7 +239,8 @@ Son definidos igual que en las operaciones matemáticas:
 · menor que: <
 · mayor o igual que: >=
 · menor o igual que: <=
-· igualdad: ==
+· igualdad abstracta: == (realiza una comparación después de realizar conversiones de tipo)
+· igualdad estricta: === (compara tanto el valor como el tipo de los operandos)
 · desigualdad/distinto de:!=
 
 Con estos operadores podemos comparar valores y determinar si una expresion es verdadera o falsa.
