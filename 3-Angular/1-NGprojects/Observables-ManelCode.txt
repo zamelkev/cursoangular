@@ -1,0 +1,153 @@
+APP.COMPONENT.TS
+
+constructor(private http:HttpClient){}
+  title='observables';
+  usuarios!:any;
+  directos!:any;
+
+
+  ngOnInit(){
+    this.cargarDatos2();
+    this.cargarDatos3();
+  }
+  cargarDatos2(){
+    this.http.get<any>('../../assets/users.json').subscribe(
+      data => {
+        this.usuarios=data.usuarios;
+      })
+  }
+  cargarDatos3(){
+    this.http.get<any>('../../assets/users.json').subscribe(
+      data => {
+        this.directos=data.directos;
+      })
+  }
+
+
+
+
+APP.COMPONENT.HTML
+
+<div class="usuarios-container">
+  <h2>Usuarios</h2>
+  <div *ngFor="let usuario of usuarios" class="usuario">
+    <img src="{{ usuario.foto }}" alt="Foto de {{ usuario.nombre }}">
+    <div class="usuario-info">
+      <h3>{{ usuario.nombre }}</h3>
+      <p>Contraseña: {{ usuario.contrasena }}</p>
+      <p>Fecha de Nacimiento: {{ usuario.fechaNacimiento }}</p>
+      <p>Teléfono: {{ usuario.telefono }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="directos-container">
+  <h2>Directos</h2>
+  <div *ngFor="let directo of directos" class="directo">
+    <img src="{{ directo.foto }}" alt="Foto de {{ directo.nombre }}">
+    <div class="directo-info">
+      <h3>{{ directo.nombre }}</h3>
+      <p>Categoría: {{ directo.categoria }}</p>
+      <p>Juego: {{ directo.juego }}</p>
+    </div>
+  </div>
+</div>
+
+
+APP.COMPONENT:CSS
+
+.usuarios-container,
+.directos-container {
+  margin-bottom: 20px;
+}
+
+.usuario,
+.directo {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.usuario img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.directo img {
+    width: 120px;
+    height: 80px;
+    border-radius: 5%;
+    margin-right: 10px;
+}
+
+.usuario-info h3,
+.directo-info h3 {
+  color: #333;
+  font-size: 20px;
+}
+
+.usuario-info p,
+.directo-info p {
+  color: #666;
+  font-size: 16px;
+}
+
+
+
+
+
+
+assets/users.json
+
+{
+  "usuarios": [
+    {
+      "nombre": "Usuario1",
+      "contrasena": "123456",
+      "fechaNacimiento": "1990-01-01",
+      "telefono": "1234567890",
+      "foto": "https://e0.pxfuel.com/wallpapers/442/989/desktop-wallpaper-perfil-boy-face-thumbnail.jpg"
+    },
+    {
+      "nombre": "Usuario2",
+      "contrasena": "abcdef",
+      "fechaNacimiento": "1995-05-10",
+      "telefono": "9876543210",
+      "foto": "https://frasesparafotos.top/wp-content/uploads/2023/01/fotos-perfil-facebook-gratis.jpg"
+    },
+    {
+      "nombre": "Usuario3",
+      "contrasena": "qwerty",
+      "fechaNacimiento": "1985-12-15",
+      "telefono": "5555555555",
+      "foto": "https://dthezntil550i.cloudfront.net/f4/latest/f41908291942413280009640715/1280_960/1b2d9510-d66d-43a2-971a-cfcbb600e7fe.png"
+    }
+  ],
+  "directos": [
+    {
+      "uid": "abcd1234",
+      "categoria": "Deportes",
+      "nombre": "Directo1",
+      "juego": "FIFA 22",
+      "foto": "https://s1.eestatic.com/2022/06/03/actualidad/677442473_224809016_1706x1511.jpg"
+    },
+    {
+      "uid": "efgh5678",
+      "categoria": "Aventura",
+      "nombre": "Directo2",
+      "juego": "The Legend of Zelda: Breath of the Wild",
+      "foto": "https://w0.peakpx.com/wallpaper/753/644/HD-wallpaper-perfil-cool-tecnologia-thumbnail.jpg"
+    },
+    {
+      "uid": "ijkl9012",
+      "categoria": "Shooter",
+      "nombre": "Directo3",
+      "juego": "Call of Duty: Warzone",
+      "foto": "https://cdn.aarp.net/content/dam/aarp/home-and-family/family-and-friends/2023/02/1140-kissing-heart-eyes-emojis-esp.jpg"
+    }
+  ]
+}
