@@ -1,0 +1,31 @@
+{
+   
+    "datos": [
+      {
+        "nombre": "Juan",
+        "edad": 25,
+        "profesion": "Ingeniero",
+        "imagen": "img1.jpg",
+        "duración": "3:40 minutos"
+      },
+      {
+        "nombre": "Maria",
+        "edad": 30,
+        "profesion": "Diseñadora",
+        "imagen": "img1.jpg"
+      },
+      {
+        "nombre": "Pedro",
+        "edad": 28,
+        "profesion": "Programador",
+        "imagen": "img1.jpg"
+      },
+       {
+        "nombre": "Paquita",
+        "edad": 51,
+        "profesion": "Esteticista",
+        "imagen": "../../assets/img/img1.jpg"
+      }
+    ]
+  }
+  

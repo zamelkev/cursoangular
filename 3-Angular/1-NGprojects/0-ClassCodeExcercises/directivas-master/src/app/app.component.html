@@ -1,0 +1,80 @@
+<p *ngIf="resultado == true">Hola es mayor</p>
+<p *ngIf="resultado == false">Adios es mayor</p>
+
+<!-- Cuando trabajamos con ts podemos inicializar variables utilizando las palabras reservadas let y const -->
+
+<ul type="none"> 
+    <li *ngFor="let item of people; let i = index"> 
+      {{ i + 1 }} - {{ item.name }} 
+    </li>
+</ul>
+
+<ul type="none">
+    <li *ngFor="let item of people; let i = index; let isFirst = first; let isLast = last; let isEven = even; let isOdd = odd">
+      {{ i }} - {{ item.name }}
+      <span *ngIf="isFirst"> (First)</span>
+      <span *ngIf="isLast"> (Last)</span>
+      <span *ngIf="isEven"> (Even)</span>
+      <span *ngIf="isOdd"> (Odd)</span>
+    </li>
+  </ul>
+
+  <ul *ngFor="let group of peopleByContry">
+    <li> {{group.pais}}
+        <ul *ngFor="let item of group.personas">
+            <li>{{item.nombre}}</li>
+        </ul>
+    </li>
+  </ul>
+
+
+
+
+  
+<!-- La directiva *ngFor de Angular permite declarar variables locales dentro de la plantilla HTML para acceder a información adicional sobre cada elemento en la iteración. Una de estas variables es index, que representa el índice actual del elemento en la colección.
+
+let i = index declara una variable local i y la inicializa con el valor del índice actual de la iteración en *ngFor. Luego, se puede usar esta variable i dentro de la plantilla para realizar operaciones o mostrar información relacionada con el índice del elemento.
+
+Esta declaración y asignación de variables solo es válida en el contexto de la plantilla HTML de Angular y no tiene ningún efecto fuera de ella. No es una forma estándar de inicializar variables en HTML en general.
+
+Otras variables locales para *ngFor:
+
+· index: Representa el índice actual del elemento en la iteración.
+
+· first: Un valor booleano que indica si el elemento actual es el primer elemento en la iteración.
+
+· last: Un valor booleano que indica si el elemento actual es el último elemento en la iteración.
+
+· even: Un valor booleano que indica si el índice del elemento actual es par.
+
+· odd: Un valor booleano que indica si el índice del elemento actual es impar. 
+
+¿Cómo se utilizan estas variables locales?
+
+<ul>
+  <li *ngFor="let item of items; let i = index; let isFirst = first; let isLast = last; let isEven = even; let isOdd = odd">
+    {{ i }} - {{ item.name }}
+    <span *ngIf="isFirst"> (First)</span>
+    <span *ngIf="isLast"> (Last)</span>
+    <span *ngIf="isEven"> (Even)</span>
+    <span *ngIf="isOdd"> (Odd)</span>
+  </li>
+</ul>
+
+
+La directiva *ngIf no permite el uso de variables locales, pero sí permite aprovechar las variables locales declaradas en una directiva *ngFor dentro de una directiva *ngIf para realizar lógica condicional más compleja:
+
+<ul>
+  <li *ngFor="let item of items; let i = index">
+    {{ item.name }}
+    <span *ngIf="i === 0"> (First item)</span>
+    <span *ngIf="i === items.length - 1"> (Last item)</span>
+  </li>
+</ul>
+
+En este caso, se utiliza la variable local i declarada en la directiva *ngFor para realizar lógica condicional dentro de las directivas *ngIf. En el ejemplo, se muestra "(First item)" solo cuando i es igual a 0, indicando que es el primer elemento de la iteración. De manera similar, se muestra "(Last item)" solo cuando i es igual a items.length - 1, lo que indica que es el último elemento de la iteración.
+
+-->
+
+
+<router-outlet></router-outlet>

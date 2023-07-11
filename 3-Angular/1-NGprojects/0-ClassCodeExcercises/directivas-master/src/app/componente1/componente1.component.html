@@ -1,0 +1,34 @@
+<div *ngFor="let item of objeto">
+    <p>{{item}}</p>
+</div>
+
+<p *ngIf="condicion">Me ves</p>
+<p *ngIf="!condicion">No me ves</p>
+
+<div class="card" *ngIf="contraste"></div>
+<div *ngIf="!contraste" class="card"></div>
+
+<!-- EJERCICIO 3 -->
+
+<label>dime tu edad</label>
+
+<!-- El parámetro ngModel -->
+
+<input [(ngModel)]="edad" type="number" >
+<h6>Tu edad es {{edad}}</h6>
+<span *ngIf="edad>=18">Eres {{mayor}}</span>
+
+<span *ngIf="edad<18">Eres {{menor}}</span>
+
+<!-- Hemos añadido a los elementos huesped dos directivas *ngIf para que estén presentes o ausentes{{ mayor }} y {{ menor }} años son los límites para entrar. -->
+<br>
+<button *ngIf="edad>=18">Entrar</button>
+
+<!-- 
+
+
+
+
+
+-->
+
