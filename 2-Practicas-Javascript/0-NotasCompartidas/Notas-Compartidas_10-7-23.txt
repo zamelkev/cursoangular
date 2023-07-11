@@ -1,0 +1,16 @@
+CLASE DE HOY
+	* Ejercicios sobre js y ts
+	* JSON 
+	* Consumiendo datos de un archivo JSON en Angular
+
+
+GRUPOS
+
+
+
+DUDAS
+Los archivos .json y .js son cosas diferentes? Si.
+
+
+
+
