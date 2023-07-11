@@ -1,0 +1,16 @@
+{
+    "categorias": [
+      {
+        "title": "Romantica",
+        "img": "../img/Cisne_negro.jpg"
+      },
+      {
+        "title": "Acción",
+        "img": "../img/Cisne_negro.jpg"
+      },
+      {
+        "title": "Comedia",
+        "img": "../img/Cisne_negro.jpg"
+      }
+    ]
+  }

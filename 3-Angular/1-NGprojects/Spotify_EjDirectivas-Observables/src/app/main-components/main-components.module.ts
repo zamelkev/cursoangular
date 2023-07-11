@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+//1º Importamos el módulo HttpClient
 
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
@@ -35,7 +39,10 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
     MatIconModule,
     MatToolbarModule,
     MatMenuModule,
-    RouterModule
+    RouterModule,
+    BrowserModule,
+    HttpClientModule,
+    HttpClient
   ],
   exports: [
     PlayerComponent,
