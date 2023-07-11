@@ -1,0 +1,15 @@
+CLASE DE HOY
+	* Observables para obtener datos de archivo JSON
+	* Servicios HttpClient
+	* Parámetros en TS
+	* Ejercicios básicos observables
+	* Ejercicios básicos parámetros
+	* Grupos y peticios específicas.
+
+
+GRUPOS
+
+
+DUDAS
+
+	* ENLACE AL PROYECTO DE HOY: https://github.com/alesrin/observables
