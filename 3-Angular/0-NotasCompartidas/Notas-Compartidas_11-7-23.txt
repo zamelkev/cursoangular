@@ -20,7 +20,7 @@ DUDAS
 	* La importación HttpClientModulo la detecta automática?, a mi no.
 	* Ariel: en caso de las API keys, se especifica la URL?
 	* Pablo: ¿no es buena practica  hacer primero un console.log de los datos para ver su estructura?
-	* Sanchi: Puedes agregar los códigos ejemplo de los pasos en Notion?
+	* Sanchi: Puedes agregar los códigos ejemplo de los pasos en Notion? Síp, os lo comparto todo ahora en cuanto acabemos esta explicación
 
 COMANDOS
 
