@@ -1,0 +1,24 @@
+CLASE DE HOY
+	* Proyecto CV - NG o IONIC
+	* Clases de JS y TS
+
+
+GRUPOS
+
+
+DUDAS
+
+
+	* Frameworks chulos para este proyecto:
+https://lottiefiles.com/
+https://animejs.com/
+http://velocityjs.org/
+https://github.com/tictail/bounce.js/blob/master/README.md
+https://github.com/elrumordelaluz/csshake
+https://www.minimamente.com/project/magic/
+https://anijs.github.io/
+https://animate.style/
+https://d3js.org/
+
+Futuras líneas de aprendizaje: www.threejs.org
+
