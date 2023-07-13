@@ -10,6 +10,9 @@ import { VoluntariadoComponent } from './voluntariado/voluntariado.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    VoluntariadoComponent
   ]
 })
 export class VoluntariadoyAccionesSocialesModule { }

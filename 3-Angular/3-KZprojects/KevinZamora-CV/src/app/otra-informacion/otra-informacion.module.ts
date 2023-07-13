@@ -16,6 +16,12 @@ import { OtrosConocimientosComponent } from './otros-conocimientos/otros-conocim
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    TecnologiasComponent,
+    HerramientasComponent,
+    IDEsComponent,
+    OtrosConocimientosComponent
   ]
 })
 export class OtraInformacionModule { }

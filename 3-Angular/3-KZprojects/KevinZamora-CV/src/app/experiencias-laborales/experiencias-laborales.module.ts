@@ -10,6 +10,9 @@ import { ExperienciaLaboralComponent } from './experiencia-laboral/experiencia-l
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    ExperienciaLaboralComponent
   ]
 })
 export class ExperienciasLaboralesModule { }

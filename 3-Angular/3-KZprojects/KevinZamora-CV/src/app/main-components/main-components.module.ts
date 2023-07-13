@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 
@@ -13,7 +16,15 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
     MainMenuComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatIconModule,
+    MatButtonModule,
+    MatToolbarModule
+  ],
+  exports: [
+    HeaderNavbarComponent,
+    FooterComponent,
+    MainMenuComponent
   ]
 })
 export class MainComponentsModule { }

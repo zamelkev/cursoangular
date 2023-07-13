@@ -3,24 +3,31 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
-import { FooterComponent } from './footer/footer.component';
-import { IntroduccionComponent } from './datosPersonales/introduccion/introduccion.component';
-import { DatosComponent } from './datosPersonales/datos/datos.component';
-import { VoluntariadoComponent } from './voluntariadoyAccionesSociales/voluntariado/voluntariado.component';
 
+import { DatosPersonalesModule } from './datos-personales/datos-personales.module';
+import { ExperienciasEducativasModule } from './experiencias-educativas/experiencias-educativas.module';
+import { ExperienciasLaboralesModule } from './experiencias-laborales/experiencias-laborales.module';
+import { MainComponentsModule } from './main-components/main-components.module';
+import { OtraInformacionModule } from './otra-informacion/otra-informacion.module';
+import { ViewsModule } from './views/views.module';
+import { VoluntariadoyAccionesSocialesModule } from './voluntariadoy-acciones-sociales/voluntariadoy-acciones-sociales.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderNavbarComponent,
-    FooterComponent,
-    IntroduccionComponent,
-    DatosComponent,
-    VoluntariadoComponent
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MainComponentsModule,
+    DatosPersonalesModule,
+    ExperienciasEducativasModule,
+    ExperienciasLaboralesModule,
+    OtraInformacionModule,
+    ViewsModule,
+    VoluntariadoyAccionesSocialesModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

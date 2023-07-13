@@ -12,6 +12,10 @@ import { DatosComponent } from './datos/datos.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    IntroduccionComponent,
+    DatosComponent
   ]
 })
 export class DatosPersonalesModule { }

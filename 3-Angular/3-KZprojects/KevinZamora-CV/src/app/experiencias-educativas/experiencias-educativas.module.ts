@@ -10,6 +10,9 @@ import { ExperienciaEducativaComponent } from './experiencia-educativa/experienc
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    ExperienciaEducativaComponent
   ]
 })
 export class ExperienciasEducativasModule { }
