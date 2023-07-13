@@ -20,4 +20,11 @@ SEMANA QUE VIENE
 DUDAS:
 
 	* Eneko: Cuanto tiempo tenemos para hacer el cv: Hasta final de curso
+	* Grupo 1: audiencia x dudas
+
+
+APUNTES
+ANGULAR: Módulos & Componentes
+IONIC: Módulos & Componentes & Pages(compunente + archivo module.ts)
+Validar archivos JSON: https://jsonlint.com/
 
