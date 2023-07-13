@@ -12,6 +12,7 @@ import { OtraInformacionModule } from './otra-informacion/otra-informacion.modul
 import { ViewsModule } from './views/views.module';
 import { VoluntariadoyAccionesSocialesModule } from './voluntariadoy-acciones-sociales/voluntariadoy-acciones-sociales.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     OtraInformacionModule,
     ViewsModule,
     VoluntariadoyAccionesSocialesModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
