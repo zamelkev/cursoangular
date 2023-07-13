@@ -21,10 +21,15 @@ DUDAS:
 
 	* Eneko: Cuanto tiempo tenemos para hacer el cv: Hasta final de curso
 	* Grupo 1: audiencia x dudas
+	* Sara: se pueden repasar las grabaciones una vez termine el curso en julio? Queda abierta la plataforma del curso?
+	* Problemas con la generación de modules en Angular
 
 
 APUNTES
 ANGULAR: Módulos & Componentes
 IONIC: Módulos & Componentes & Pages(compunente + archivo module.ts)
 Validar archivos JSON: https://jsonlint.com/
+
+
+El archivo module
 
