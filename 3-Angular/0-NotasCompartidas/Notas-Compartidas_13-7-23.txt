@@ -1,0 +1,23 @@
+CLASE DE HOY
+
+	* Proyecto CV
+	* Clases
+	* Directivas de atributo
+
+SEMANA QUE VIENE
+
+	* SwiperJs
+	* Splash Screen
+	* Servicio Firebase Autenticación
+	* CRUD Local
+
+ÚLTIMA SEMANA
+
+	* CRUD Servidor externo (Firebase)
+	* Testing Jasmine
+
+
+DUDAS:
+
+	* Eneko: Cuanto tiempo tenemos para hacer el cv: Hasta final de curso
+
