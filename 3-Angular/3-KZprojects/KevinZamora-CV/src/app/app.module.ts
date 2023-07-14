@@ -4,32 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { DatosPersonalesModule } from './datos-personales/datos-personales.module';
-import { ExperienciasEducativasModule } from './experiencias-educativas/experiencias-educativas.module';
-import { ExperienciasLaboralesModule } from './experiencias-laborales/experiencias-laborales.module';
-import { MainComponentsModule } from './main-components/main-components.module';
-import { OtraInformacionModule } from './otra-informacion/otra-informacion.module';
-import { ViewsModule } from './views/views.module';
-import { VoluntariadoyAccionesSocialesModule } from './voluntariadoy-acciones-sociales/voluntariadoy-acciones-sociales.module';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
-    AppComponent,
-    
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    MainComponentsModule,
-    DatosPersonalesModule,
-    ExperienciasEducativasModule,
-    ExperienciasLaboralesModule,
-    OtraInformacionModule,
-    ViewsModule,
-    VoluntariadoyAccionesSocialesModule,
-    BrowserAnimationsModule,
-    FontAwesomeModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
