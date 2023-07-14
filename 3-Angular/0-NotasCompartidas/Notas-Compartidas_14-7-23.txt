@@ -30,6 +30,8 @@ PUNTO EXTRA 6:
     Realiza el ejemplo 2 visto en clase de la directiva *ngSwitch, pero cambia la temática de los tipos de envío por la de los tipos de billetes de avión: clase turista, clase preferente y clase deluxe.
 
 
+GITHUB: https://github.com/alesrin/clases-ngswitch
+
 
 
 
