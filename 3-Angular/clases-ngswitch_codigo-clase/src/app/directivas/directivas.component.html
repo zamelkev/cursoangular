@@ -1,0 +1,62 @@
+<p>La directiva *ngSwitch es una directiva estructural en Angular que se utiliza para realizar una selección condicional entre varias opciones. Proporciona una forma de alternar entre diferentes bloques de contenido basándose en el valor de una expresión. <br>Se utiliza en combinación con las directivas *ngSwitchCase y *ngSwitchDefault</p>
+
+<!-- SINTAXIS
+    
+    <div [ngSwitch]="opcion">
+  <div *ngSwitchCase="'A'">Opción A seleccionada</div>
+  <div *ngSwitchCase="'B'">Opción B seleccionada</div>
+  <div *ngSwitchCase="'C'">Opción C seleccionada</div>
+  <div *ngSwitchDefault>Opción no válida</div>
+</div>
+
+-opcion- es una variable que contiene el valor seleccionado. Dependiendo del valor de opcion, se mostrará el contenido correspondiente a ese caso específico. Si opcion no coincide con ningún caso, se mostrará el contenido definido en *ngSwitchDefault.-->
+
+<h1>Selección con *ngSwitch</h1>
+
+<div>
+  <label for="opcion">Selecciona una opción:</label>
+  <select [(ngModel)]="opcion" id="opcion">
+    <option value="A">Opción A</option>
+    <option value="B">Opción B</option>
+    <option value="C">Opción C</option>
+  </select>
+</div>
+
+<div [ngSwitch]="opcion">
+  <div *ngSwitchCase="'A'">Has seleccionado la opción A</div>
+  <div *ngSwitchCase="'B'">Has seleccionado la opción B</div>
+  <div *ngSwitchCase="'C'">Has seleccionado la opción C</div>
+  <div *ngSwitchDefault>Selecciona una opción válida</div>
+</div>
+
+
+<!-- EJEMPLO 2 -->
+
+<h1>Selecciona el método de envío</h1>
+
+<div>
+  <label for="metodoEnvio">Método de envío:</label>
+  <select [(ngModel)]="metodoEnvio" id="metodoEnvio" (change)="actualizarCostoEnvio()">
+    <option value="estandar">Envío Estándar</option>
+    <option value="prioritario">Envío Prioritario</option>
+    <option value="express">Envío Express</option>
+  </select>
+</div>
+
+<div [ngSwitch]="metodoEnvio">
+  <div *ngSwitchCase="'estandar'">
+    <p>Has seleccionado el envío estándar.</p>
+    <p>El costo de envío es: {{ costoEnvio }} €.</p>
+  </div>
+  <div *ngSwitchCase="'prioritario'">
+    <p>Has seleccionado el envío prioritario.</p>
+    <p>El costo de envío es: {{ costoEnvio }} €.</p>
+  </div>
+  <div *ngSwitchCase="'express'">
+    <p>Has seleccionado el envío express.</p>
+    <p>El costo de envío es: {{ costoEnvio }} €.</p>
+  </div>
+  <div *ngSwitchDefault>
+    <p>Selecciona un método de envío válido.</p>
+  </div>
+</div>
