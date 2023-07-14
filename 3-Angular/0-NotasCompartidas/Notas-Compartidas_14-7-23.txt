@@ -6,9 +6,9 @@ CLASE DE HOY
 
 GRUPOS & DUDAS
 
-	* Manel
 	* Eneko
 	* Sanchi (cv): Te lo añado aquí (porque lo veremos al final de la clase) Sanchi, ok
+	* Grupo 1
 
 DUDAS de CLASE
 
@@ -25,6 +25,11 @@ PUNTO EXTRA 3: Crea una subclase gato que extienda la clase Animal y herede de e
 PUNTO EXTRA 4: Tenemos que crear un archivo json con info de productos de un ecommerce que pertenezcan a diferentes categorías. Con crear 6 productos que pertenezcan a 3 categorías diferentes vale. vamos a utilizar un input tipe select para que el usuario pueda seleccionar la categoría y en base a ello aparezcan unos resultados u otros utilizando la directiva ngIf
 
 PUNTO EXTRA 5: Realiza el ejemplo de polimorfismo basándote en perfumes, con un método que nos devuelva en consola si un perfume huele dulce o químico, y otro que nos indique si un perfume es para hombre o para mujer.
+
+PUNTO EXTRA 6: 
+    Realiza el ejemplo 2 visto en clase de la directiva *ngSwitch, pero cambia la temática de los tipos de envío por la de los tipos de billetes de avión: clase turista, clase preferente y clase deluxe.
+
+
 
 
 
