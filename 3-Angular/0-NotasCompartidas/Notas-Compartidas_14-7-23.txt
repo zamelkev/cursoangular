@@ -12,7 +12,7 @@ GRUPOS & DUDAS
 
 DUDAS de CLASE
 
-
+	* 
 
 APUNTES
 
@@ -23,6 +23,8 @@ PUNTO EXTRA 2: Crea una clase raizCuadrada, cada instancia va a calcular la raiz
 PUNTO EXTRA 3: Crea una subclase gato que extienda la clase Animal y herede de esta la propiedad nombre. Sobrescribe el método emitirSonido(){} y vamos a crear 3 instancias de la subclase gato, en la primera le pasaremos como argumento nombre: "Matias" y argumento raza: "persa"; en la segunda le pasaremos como argumento nombre: "Gardfield" y argumento raza: "común europeo"
 
 PUNTO EXTRA 4: Tenemos que crear un archivo json con info de productos de un ecommerce que pertenezcan a diferentes categorías. Con crear 6 productos que pertenezcan a 3 categorías diferentes vale. vamos a utilizar un input tipe select para que el usuario pueda seleccionar la categoría y en base a ello aparezcan unos resultados u otros utilizando la directiva ngIf
+
+PUNTO EXTRA 5: Realiza el ejemplo de polimorfismo basándote en perfumes, con un método que nos devuelva en consola si un perfume huele dulce o químico, y otro que nos indique si un perfume es para hombre o para mujer.
 
 
 
