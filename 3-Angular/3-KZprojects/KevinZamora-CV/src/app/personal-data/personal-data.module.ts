@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { IntroAbstractComponent } from './intro-abstract/intro-abstract.component';
 import { ContactDatasComponent } from './contact-datas/contact-datas.component';
 import { LanguagesComponent } from './languages/languages.component';
+import { SocialNetworksComponent } from './social-networks/social-networks.component';
 
 
 
@@ -10,7 +11,8 @@ import { LanguagesComponent } from './languages/languages.component';
   declarations: [
     IntroAbstractComponent,
     ContactDatasComponent,
-    LanguagesComponent
+    LanguagesComponent,
+    SocialNetworksComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +20,8 @@ import { LanguagesComponent } from './languages/languages.component';
   exports: [
     IntroAbstractComponent,
     ContactDatasComponent,
-    LanguagesComponent
+    LanguagesComponent,
+    SocialNetworksComponent
   ]
 })
 export class PersonalDataModule { }
