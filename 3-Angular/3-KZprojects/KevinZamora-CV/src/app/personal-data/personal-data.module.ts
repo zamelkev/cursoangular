@@ -14,6 +14,11 @@ import { LanguagesComponent } from './languages/languages.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    IntroAbstractComponent,
+    ContactDatasComponent,
+    LanguagesComponent
   ]
 })
 export class PersonalDataModule { }
