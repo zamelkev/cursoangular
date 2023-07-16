@@ -14,9 +14,8 @@ export class EducationalExperienceComponent {
   constructor(private http: HttpClient){}
 
 ngOnInit(){
-  // this.cargarFormacion();
   this.cargarFormacionReglada();
-  // this.cargarFormacionNoReglada();
+  this.cargarFormacionNoReglada();
 }
 
 
@@ -26,16 +25,10 @@ cargarFormacionReglada() {
       this.formacionReglada = data.formacionReglada;
     })
 }
-// cargarFormacionReglada() {
-//   this.http.get<any>('../../../assets/json/educational-experiencies.json').subscribe(
-//     data => {
-//       this.formacionReglada = data.formacionReglada;
-//     })
-// }
-// cargarFormacionNoReglada() {
-//   this.http.get<any>('../../../assets/json/educational-experiencies.json').subscribe(
-//     data => {
-//       this.formacionNoReglada = data.formacionNoReglada;
-//     })
-// }
+cargarFormacionNoReglada() {
+  this.http.get<any>('../../../assets/json/educational-experiencies_non-regulated-training.json').subscribe(
+    data => {
+      this.formacionNoReglada = data.formacionNoReglada;
+    })
+}
 }

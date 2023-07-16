@@ -1,5 +1,5 @@
-<h1 class="mb-5">Educación / Formación</h1>
-<h3 class=" mb-5">Formación Reglada</h3>
+<h2 class="mb-5">Educación / Formación</h2>
+<h2 class=" mb-5">Formación Reglada</h2>
 <div class="d-flex flex-column flex-md-row justify-content-between mb-5" *ngFor="let item of formacionReglada">
     <div class="flex-grow-1">
         <h3 class="mb-0">{{item.estudio}} ( Nota: {{item.cualificacion}} )</h3>
@@ -12,7 +12,7 @@
     <div class="flex-shrink-0"><span class="text-primary">{{item.periodo}}</span></div>
 </div>
 <br>
-<h3 class=" mb-5">Formación No Reglada</h3>
+<h2 class=" mb-5">Formación No Reglada</h2>
 <div class="d-flex flex-column flex-md-row justify-content-between mb-5" *ngFor="let item of formacionNoReglada">
     <div class="flex-grow-1">
         <h3 class="mb-0">{{item.estudio}} ( Nota: {{item.cualificacion}} )</h3>
