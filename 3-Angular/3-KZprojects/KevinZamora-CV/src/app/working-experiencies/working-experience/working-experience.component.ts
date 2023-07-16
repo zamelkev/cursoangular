@@ -20,7 +20,7 @@ ngOnInit(){
 
 
 cargarDatos() {
-  this.http.get<any>('../../../assets/json/working-experiences.json').subscribe(
+  this.http.get<any>('../../../assets/json/working-experiencies.json').subscribe(
     data => {
       this.datos = data.datos;
     })

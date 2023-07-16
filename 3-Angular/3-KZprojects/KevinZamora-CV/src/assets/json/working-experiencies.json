@@ -1,16 +1,16 @@
 {
     "datos": [
       {
-        "puesto": "Desarrollador Angular + Firebase (para conexión con base de datos) + Testing' con Jasmine",
+        "puesto": "Desarrollador Angular + UX + Material Design + Firebase (para conexión con base de datos) + Testing' con Jasmine",
         "descripcion": "Despliege de aplicaciones web utilizando uno de los principales 'frameworks' para 'frontend'(Angular 16), el cual está basado en HTML, CSS, TypeScript y JavaScript, haciendo uso del Modelo Vista - Controlador (MVC)",
         "profesion": "Desarrollador Frontend",
-        "periodo" : "Julio 2021 - Agosto 2022"
+        "periodo" : "Mayo 2023 - Septiembre 2023"
       },
       {
-        "puesto": "Desarrollador .NET & Angular + Testing con Postman & Swagger",
-        "descripcion": "Despliege de aplicaciones web utilizando uno de los principales 'frameworks' para 'frontend' (Angular 14: basado en HTML, CSS, TypeScript y JavaScript (haciendo uso del Modelo Vista - Controlador (MVC))) y haciendo uso a su vez del lenguaje C#, mediante Entity Framework y MySQL 8, para el desarrollo y la interconexión con la aplicación 'backend'",
+        "puesto": "Desarrollador .NET & Angular + Material Design + Testing con Postman & Swagger",
+        "descripcion": "Despliege de aplicaciones web utilizando uno de los principales 'frameworks' para 'frontend'(Angular 14) el cual está basado en HTML, CSS, TypeScript y JavaScript (haciendo uso del Modelo Vista - Controlador (MVC)) y haciendo uso a su vez del lenguaje C#, mediante Entity Framework y MySQL 8, para el desarrollo y la interconexión con la aplicación 'backend'",
         "profesion": "Desarrollador Junior Full Stack",
-        "periodo" : "Julio 2021 - Agosto 2022"
+        "periodo" : "Octubre 2022 - Enero 2023"
       },
       {
         "puesto": "Diseñador Gráfico, ayudante, recepcionista y vendedor (teloimprimimos.com)",
