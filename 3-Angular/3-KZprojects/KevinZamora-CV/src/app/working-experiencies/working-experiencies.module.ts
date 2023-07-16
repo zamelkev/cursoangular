@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 import { WorkingExperienceComponent } from './working-experience/working-experience.component';
 
 
@@ -9,7 +10,11 @@ import { WorkingExperienceComponent } from './working-experience/working-experie
     WorkingExperienceComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule
+  ],
+  exports: [
+    WorkingExperienceComponent
   ]
 })
-export class WorkingExperiencesModule { }
+export class WorkingExperienciesModule { }

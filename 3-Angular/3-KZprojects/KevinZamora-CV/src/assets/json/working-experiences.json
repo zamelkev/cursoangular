@@ -1,0 +1,38 @@
+{
+    "datos": [
+      {
+        "puesto": "Desarrollador Angular + Firebase (para conexión con base de datos) + Testing' con Jasmine",
+        "descripcion": "Despliege de aplicaciones web utilizando uno de los principales 'frameworks' para 'frontend'(Angular 16), el cual está basado en HTML, CSS, TypeScript y JavaScript, haciendo uso del Modelo Vista - Controlador (MVC)",
+        "profesion": "Desarrollador Frontend",
+        "periodo" : "Julio 2021 - Agosto 2022"
+      },
+      {
+        "puesto": "Desarrollador .NET & Angular + Testing con Postman & Swagger",
+        "descripcion": "Despliege de aplicaciones web utilizando uno de los principales 'frameworks' para 'frontend' (Angular 14: basado en HTML, CSS, TypeScript y JavaScript (haciendo uso del Modelo Vista - Controlador (MVC))) y haciendo uso a su vez del lenguaje C#, mediante Entity Framework y MySQL 8, para el desarrollo y la interconexión con la aplicación 'backend'",
+        "profesion": "Desarrollador Junior Full Stack",
+        "periodo" : "Julio 2021 - Agosto 2022"
+      },
+      {
+        "puesto": "Diseñador Gráfico, ayudante, recepcionista y vendedor (teloimprimimos.com)",
+        "descripcion": "Realización, maquetación y edición de diseños publicitarios para posterior impresión sobre diferentes materiales, medios y formatos (Sublimación / Plóter impresión y corte / imprenta) / Limpieza / Impresión / Preparación / Atención al cliente / Venta.",
+        "profesion": "Diseñador Gráfico",
+        "periodo" : "Julio 2021 - Agosto 2022"
+      },
+      {
+        "puesto": "Desarrollador Web",
+        "descripcion": "Despliege de aplicaciones web utilizando las principales tecnologías para el 'frontend' (HTML, CSS y JavaScript) y haciendo uso a su vez del lenguaje Java (en la versión 8), junto con la implementación del MVC (Modelo Vista Controlador), para el desarrollo del 'backend'",
+        "profesion": "Desarrollador Web Java",
+        "periodo" : "Septiembre 2019 - Diciembre 2019"
+      },
+
+      {
+        "puesto": "Técnico auxiliar en la tienda de telefonía de Yoigo Vinaròs",
+        "descripcion": "(Atención al cliente, servicio técnico sobre telefonía y dispositivos móviles, tramitación de contratos de diferente índole, gestión y protección de los datos del cliente, manejo y salvaguardia de efectivo, limpieza, organización y tareas de facturación)",
+        "profesion": "Técnico en Telecomunicaciones",
+        "periodo" : "Julio y Agosto - Años 2015 y 2016"
+      }
+    ]
+    
+
+
+}
