@@ -1,1 +1,27 @@
-<p>educational-experience works!</p>
+<h1 class="mb-5">Educación / Formación</h1>
+<h3 class=" mb-5">Formación Reglada</h3>
+<div class="d-flex flex-column flex-md-row justify-content-between mb-5" *ngFor="let item of formacionReglada">
+    <div class="flex-grow-1">
+        <h3 class="mb-0">{{item.estudio}} ( Nota: {{item.cualificacion}} )</h3>
+        <div class="subheading mb-3">{{item.institucion}}</div>
+        <div class="subheading mb-3">{{item.localizacion}}</div>
+        <div class="subheading mb-3">{{item.motivacion}}</div>
+        <div class="subheading mb-3"><a href={{item.enlace}} target="_blank" class="text-primary">+ Información</a></div>
+        <!-- <div class="subheading mb-3">Certificados profesionales: {{item.certificadosProfesionales}}</div> -->
+    </div>
+    <div class="flex-shrink-0"><span class="text-primary">{{item.periodo}}</span></div>
+</div>
+<br>
+<h3 class=" mb-5">Formación No Reglada</h3>
+<div class="d-flex flex-column flex-md-row justify-content-between mb-5" *ngFor="let item of formacionNoReglada">
+    <div class="flex-grow-1">
+        <h3 class="mb-0">{{item.estudio}} ( Nota: {{item.cualificacion}} )</h3>
+        <div class="subheading mb-3">{{item.institucion}}</div>
+        <div class="subheading mb-3">{{item.localizacion}}</div>
+        <div class="subheading mb-3">{{item.motivacion}}</div>
+        <div class="subheading mb-3"><a href={{item.enlace}} target="_blank" class="text-primary">+ Información</a></div>
+        <!-- <div class="subheading mb-3">Certificados profesionales: {{item.certificadosProfesionales}}</div> -->
+    </div>
+    <div class="flex-shrink-0"><span class="text-primary">{{item.periodo}}</span></div>
+</div>
+<br>
