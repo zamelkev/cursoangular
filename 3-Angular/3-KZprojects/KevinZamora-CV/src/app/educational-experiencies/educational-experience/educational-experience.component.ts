@@ -9,12 +9,14 @@ import { HttpClient } from '@angular/common/http';
 export class EducationalExperienceComponent {
   formacionReglada!: any;
   formacionNoReglada!: any;
+  idiomas!: any;
 
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
     this.cargarFormacionReglada();
     this.cargarFormacionNoReglada();
+    this.cargarCertificadosIdiomas();
   }
 
   cargarFormacionReglada() {
@@ -33,6 +35,15 @@ export class EducationalExperienceComponent {
       )
       .subscribe((data2) => {
         this.formacionNoReglada = data2.formacionNoReglada;
+      });
+  }
+  cargarCertificadosIdiomas() {
+    this.http
+      .get<any>(
+        '../../../assets/json/languages.json'
+      )
+      .subscribe((data3) => {
+        this.idiomas = data3.idiomas;
       });
   }
 }
