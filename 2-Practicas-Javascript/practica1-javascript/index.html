@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gestor de Tareas</title>
+</head>
+<body>
+  <h1>Gestor de Tareas</h1>
+
+  <form id="formulario-tarea">
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" required>
+
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion"></textarea>
+
+    <label for="estado">Estado:</label>
+    <select id="estado">
+      <option value="">Todos</option>
+      <option value="Pendiente">Pendiente</option>
+      <option value="En Progreso">En Progreso</option>
+      <option value="Completada">Completada</option>
+    </select>
+
+    <label for="prioridad">Prioridad:</label>
+    <select id="prioridad">
+      <option value="">Todas</option>
+      <option value="Baja">Baja</option>
+      <option value="Media">Media</option>
+      <option value="Alta">Alta</option>
+    </select>
+
+    <label for="fecha">Fecha de Entrega:</label>
+    <input type="date" id="fecha">
+
+    <button type="submit">Agregar Tarea</button>
+  </form>
+
+  <h2>Todas las Tareas</h2>
+  <ul id="lista-tareas"></ul>
+
+  <script src="./index.js"></script>
+</body>
+</html>
