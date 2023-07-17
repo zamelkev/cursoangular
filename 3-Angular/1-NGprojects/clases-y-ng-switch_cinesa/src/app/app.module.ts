@@ -14,12 +14,14 @@ import { ComponenteGeneralComponent } from './componente-general/componente-gene
 import { HeaderSecunModule } from './header-secun/header-secun.module';
 import { BodyGridModule } from './body-grid/body-grid.module';
 import { VistasModule } from './vistas/vistas.module';
+import { CineComponent } from './cine/cine.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ComponenteGeneralComponent,
+    CineComponent,
 
 
   ],

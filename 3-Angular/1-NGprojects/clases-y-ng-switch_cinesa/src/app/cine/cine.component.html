@@ -1,0 +1,27 @@
+<h2>Entradas:</h2>
+
+<div>
+    <label for="opcion">Selecciona una categoria:</label>
+    <select [(ngModel)]="opcion" id="opcion">
+        <option value="Ciencia Ficción">Ciencia Ficción</option>
+        <option value="comedia">Comedia</option>
+        <option value="documental">Documental</option>
+    </select>
+</div>
+
+<div [ngSwitch]="opcion">
+    <div class="flex-container" *ngFor="let item of entradas">
+    <div *ngSwitchCase="'cienciaFiccion'">Has seleccionado la categoría "Ciencia Ficción"
+                    <span>{{item.nombre}} : </span>
+                    <span>{{item.precio}} €</span>
+    </div>
+    <div *ngSwitchCase="'comedia'">Has seleccionado la categoría "Comedia"
+                    <span>{{item.nombre}} : </span>
+                    <span>{{item.precio}} €</span>
+    </div>
+    <div *ngSwitchCase="'documental'">Has seleccionado la categoría "Documental"
+                    <span>{{item.nombre}} : </span>
+                    <span>{{item.precio}} €</span>
+    </div>
+    <div *ngSwitchDefault>Selecciona una opción válida</div>
+</div>
