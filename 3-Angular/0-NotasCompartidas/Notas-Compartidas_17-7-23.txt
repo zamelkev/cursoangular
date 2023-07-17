@@ -1,0 +1,34 @@
+CLASE DE HOY
+	* Ejercicio clases + directiva ngSwitch
+	* Práctica 1 de la plataforma de Adecco. 
+	* CRUD local en aplicaciones Angular.
+	* Dudas y grupos.
+
+DUDAS & GRUPOS
+
+	* 
+
+APUNTES DE CLASE
+
+
+
+EJERCICIO 1 CLASE DE HOY
+
+¿Dónde vamos a realizar este ejercicio? EN LA APLICACIÓN CINESA:
+    https://github.com/alesrin/hola_mundo
+
+	1. Crea un componente de Angular llamado CineComponent.
+	2. Define una clase Entrada dentro del componente CineComponent. La clase Entrada debe tener las siguientes propiedades:
+		* nombre: de tipo string.
+		* categoria: de tipo string.
+		* precio: de tipo number.
+	1. Dentro del componente CineComponent, crea una propiedad llamada entradas que sea un array de objetos de tipo Entrada. Inicializa este array con varias entradas de cine utilizando el constructor de la clase Entrada.
+	2. En el archivo HTML del componente CineComponent, utiliza la directiva *ngFor para iterar sobre el arreglo de entradas y mostrar la información de cada entrada, como el nombre y el precio.
+	3. Utiliza la directiva ngSwitch para mostrar diferentes contenido según la categoría de cada entrada.
+	4. Define varios bloques ngSwitchCase dentro de la directiva ngSwitch, correspondientes a diferentes categorías de entradas de cine, como "Infantil", "General" y "VIP".
+	5. Dentro de cada bloque ngSwitchCase, muestra el contenido deseado para cada categoría de entrada, como un mensaje específico o información adicional.
+	6. Agrega un bloque ngSwitchDefault dentro de la directiva ngSwitch para manejar el caso en el que la categoría no coincida con ninguna de las categorías especificadas. En este bloque, puedes mostrar un mensaje genérico o realizar alguna acción predeterminada.
+
+
+
+
