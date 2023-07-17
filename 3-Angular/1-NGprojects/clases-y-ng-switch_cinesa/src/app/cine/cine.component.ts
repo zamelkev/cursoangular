@@ -22,8 +22,8 @@ class Entrada {
 
 export class CineComponent implements OnInit {
 
-  entradas:Entrada[] = []
-  opcion: string;
+  entradas:Entrada[] = [];
+  entrada: string;
   categoria: string;
 
   constructor() { 
@@ -34,19 +34,24 @@ export class CineComponent implements OnInit {
     new Entrada("Ted 2", "Comedia", 5);
     new Entrada("2012", "Documental", 5);
 
-    this.opcion = 'Z';
-    this.categoria = 'indefinida';
-    
+    this.categoria = 'comedia';
+    this.entrada = '';
   }
 
-  actualizarCategoriaSeleccionada() {
-    switch (this.opcion) {
+  actualizarCategoria() {
+    switch (this.entrada) {
       case 'Ciencia Ficcion':
         this.categoria = 'Ciencia Ficción';
+        break;
       case 'comedia':
         this.categoria = 'Comedia';
+        break;
       case 'documental':
         this.categoria = 'Documental';
+        break;
+      default:
+        this.categoria = '';
+        break;
     }
   }
 
