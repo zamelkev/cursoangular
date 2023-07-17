@@ -6,7 +6,12 @@ CLASE DE HOY
 
 DUDAS & GRUPOS
 
-	* 
+	* Alex Larrosa Vegas
+	* Grupo 2
+	* Grupo 3:
+		* Poder hacer un metodo register y editar, editando el json. Lo haremos en clase no?
+		* Como se hace las presentaciones el 28, tendremos un powepoint? cuanto tiempo tenemos x grupo? solo con el notion? que recomiendas. 
+		* El 28 presentamos a adecco, pero por setiembe a las empresas no? me podrias decir una fecha aproximada? aparte, durante ese tiempo de agosto, podemos desarrollar mas el programa no?
 
 APUNTES DE CLASE
 
@@ -15,7 +20,7 @@ APUNTES DE CLASE
 EJERCICIO 1 CLASE DE HOY
 
 ¿Dónde vamos a realizar este ejercicio? EN LA APLICACIÓN CINESA:
-    https://github.com/alesrin/hola_mundo
+    https://gitg c CineComponentub.com/alesrin/hola_mundo
 
 	1. Crea un componente de Angular llamado CineComponent.
 	2. Define una clase Entrada dentro del componente CineComponent. La clase Entrada debe tener las siguientes propiedades:
@@ -28,6 +33,7 @@ EJERCICIO 1 CLASE DE HOY
 	4. Define varios bloques ngSwitchCase dentro de la directiva ngSwitch, correspondientes a diferentes categorías de entradas de cine, como "Infantil", "General" y "VIP".
 	5. Dentro de cada bloque ngSwitchCase, muestra el contenido deseado para cada categoría de entrada, como un mensaje específico o información adicional.
 	6. Agrega un bloque ngSwitchDefault dentro de la directiva ngSwitch para manejar el caso en el que la categoría no coincida con ninguna de las categorías especificadas. En este bloque, puedes mostrar un mensaje genérico o realizar alguna acción predeterminada.
+
 
 
 
