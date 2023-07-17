@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'titleFilm';
+    src: url('../../../assets/fonts/AldotheApache.ttf');
+}
+
+.filmContainer{
+    width:100%;
+    min-width: 7rem;
+    max-width: 14rem;
+    height:18rem;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 2rem auto;
+}
+
+.cisneNegro{
+    background-image: url('../../../assets/img/Cisne_negro.jpg');
+}
+
+.playBtn{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0 0 20px 0;
+    background-color: rgb(73, 73, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playBtn i{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.filmContainer span{
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    font-size: 2.5rem;
+    font-family: 'titleFilm';
+    text-shadow:3px -3px 8px rgb(255, 255, 255) ;
+}
