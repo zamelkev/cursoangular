@@ -8,10 +8,6 @@ DUDAS & GRUPOS
 
 	* Alex Larrosa Vegas
 	* Grupo 2
-	* Grupo 3:
-		* Poder hacer un metodo register y editar, editando el json. Lo haremos en clase no?
-		* Como se hace las presentaciones el 28, tendremos un powepoint? cuanto tiempo tenemos x grupo? solo con el notion? que recomiendas. 
-		* El 28 presentamos a adecco, pero por setiembe a las empresas no? me podrias decir una fecha aproximada? aparte, durante ese tiempo de agosto, podemos desarrollar mas el programa no?
 
 APUNTES DE CLASE
 
