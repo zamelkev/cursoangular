@@ -1,0 +1,14 @@
+CLASE DE HOY
+
+	* CRUD local en aplicaciones NG
+		* Servicios
+		* Interface
+		* Nuevos métodos de RXJS 
+	* Ejercicio de CRUD local
+	* Práctica 2 
+	* Proyectos y dudas
+
+PROYECTOS y DUDAS
+
+	* +
+	* Manel: Si me conecto desde otro PC pero tengo acceso al servidor gracias a la red, tendria los valores editados si otro pc lo editó sin matar el proceso?? Solo en el nuestro navegador, localstorage
