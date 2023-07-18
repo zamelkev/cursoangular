@@ -10,7 +10,11 @@ ENLACE: https://github.com/alesrin/crudlocal
 	* Práctica 2 
 	* Proyectos y dudas
 
-PROYECTOS y DUDAS
+AUDIENCIAS
+
+	* 
+
+DUDAS
 
 	* Sanchi: La => podías diseccionar su funcionalidad, no lo acabo de pillar, sé que ahorra código pero...
 	* https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions
@@ -19,10 +23,17 @@ PROYECTOS y DUDAS
 	Así se evita crear nueva variable, no?
 	* L: con estos temas de interface y service, veo que el TS hereda también el handicap de JS en que se puede "sobrecargar" los objetos (con aquello de que Service se puede alterar, aunque su objetivo sea "singleton" y que no se le haga "extend", al final es una recomendación de uso de "código limpio", acuerdo y flujo de trabajo)… ¿no es así?
 
+
 EJEMPLO PARA PERFILES QUE YA HAYAN HECHO CRUD ANTES:
     
     https://stackblitz.com/edit/local-storage-crud-app?file=app%2Ftodo.service.ts
     
+
+
+
+
+
+
 
 
 
