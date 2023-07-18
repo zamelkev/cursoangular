@@ -25,7 +25,8 @@ DUDAS
 	* push es la funcion para agregar un nuevo elemento de un array verdad? si, en la última posicion del array >> https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/push
 	* Manel: Si alguien quiere reiniciar los datos de almacenamiento, en firefox es:
 		click derecho -> inspeccionar -> almacenamiento -> almacenamiento local -> http://localhost:4200 -> datos -> click derecho -> eliminar "datos"
-	* L: con estos temas de interface y service, veo que el TS hereda también el handicap de JS en que se puede "sobrecargar" los objetos (con aquello de que Service se puede alterar, aunque su objetivo sea "singleton" y que no se le haga "extend", al final es una recomendación de uso de "código limpio", acuerdo y flujo de trabajo)… ¿no es así?
+	* L (1): con estos temas de interface y service, veo que el TS hereda también el handicap de JS en que se puede "sobrecargar" los objetos (con aquello de que Service se puede alterar, aunque su objetivo sea "singleton" y que no se le haga "extend", al final es una recomendación de uso de "código limpio", acuerdo y flujo de trabajo)… ¿no es así?
+	* L (2): Estos temas a parte de "Clean Code" se relaciona con la "Arquitectura del Software".. ¿es así? ¿se verán estos temas de arquitectura o se implementará al final con los Test? Ej.:https://www.youtube.com/watch?v=RnNa47dN570
 	* Pablo: 2) El problema que tengo con la estructura de datos en el curriculum de angular
 
 
@@ -33,6 +34,9 @@ EJEMPLO PARA PERFILES QUE YA HAYAN HECHO CRUD ANTES:
     
     https://stackblitz.com/edit/local-storage-crud-app?file=app%2Ftodo.service.ts
     
+
+
+
 
 
 
