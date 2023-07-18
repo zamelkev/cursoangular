@@ -4,11 +4,25 @@ CLASE DE HOY
 		* Servicios
 		* Interface
 		* Nuevos métodos de RXJS 
+ENLACE: https://github.com/alesrin/crudlocal
+
 	* Ejercicio de CRUD local
 	* Práctica 2 
 	* Proyectos y dudas
 
 PROYECTOS y DUDAS
 
-	* +
-	* Manel: Si me conecto desde otro PC pero tengo acceso al servidor gracias a la red, tendria los valores editados si otro pc lo editó sin matar el proceso?? Solo en el nuestro navegador, localstorage
+	* Sanchi: La => podías diseccionar su funcionalidad, no lo acabo de pillar, sé que ahorra código pero...
+	* https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+	* push es la funcion para agregar un nuevo elemento de un array verdad? si, en la última posicion del array >> https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+	* Manel: En agregarDatos(), podira ser: nuevoDato.id=this.generarNuevoId() 
+	Así se evita crear nueva variable, no?
+	* L: con estos temas de interface y service, veo que el TS hereda también el handicap de JS en que se puede "sobrecargar" los objetos (con aquello de que Service se puede alterar, aunque su objetivo sea "singleton" y que no se le haga "extend", al final es una recomendación de uso de "código limpio", acuerdo y flujo de trabajo)… ¿no es así?
+
+EJEMPLO PARA PERFILES QUE YA HAYAN HECHO CRUD ANTES:
+    
+    https://stackblitz.com/edit/local-storage-crud-app?file=app%2Ftodo.service.ts
+    
+
+
+
