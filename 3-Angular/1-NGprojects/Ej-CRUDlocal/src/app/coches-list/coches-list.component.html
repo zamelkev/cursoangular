@@ -1,0 +1,9 @@
+<h2>Lista de Coches</h2>
+
+<ul>
+  <li *ngFor="let coche of coches">
+    {{ coche.modelo }} - {{ coche.marca }} - {{ coche.year }} - {{ coche.km }}
+    <button (click)="eliminarCoche(coche.id)">Eliminar</button>
+    <button (click)="editarCoche(coche)">Editar</button>
+  </li>
+</ul>
