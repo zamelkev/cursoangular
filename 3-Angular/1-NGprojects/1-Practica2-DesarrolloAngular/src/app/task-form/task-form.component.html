@@ -1,5 +1,5 @@
 <h2>Formulario de Tareas</h2>
-<form #dataForm="ngForm">
+<form #tareasForm="ngForm">
   <input type="hidden" name="id" [(ngModel)]="nuevaTarea.id">
 
   <div>
@@ -28,8 +28,8 @@
   </div>
 
   <div>
-    <button type="button" (click)="agregarOActualizarTarea(dataForm)" [disabled]="!dataForm.form.valid">Guardar</button>
-    <button type="button" (click)="mostraDetalleTarea(dataForm)" [disabled]="!dataForm.form.valid">Ver Detalles</button>
-    <button type="button" (click)="limpiarFormulario(dataForm)">Cancelar</button>
+    <button type="button" (click)="agregarOActualizarTarea(tareasForm)" [disabled]="!tareasForm.form.valid">Guardar</button>
+    <!-- <button type="button" (click)="mostrarDetalleTarea(dataForm)" [disabled]="!tareasForm.form.valid">Ver Detalles</button> -->
+    <button type="button" (click)="limpiarFormulario(tareasForm)">Cancelar</button>
   </div>
 </form>

@@ -9,7 +9,7 @@ import { ITareas } from '../itareas.model';
 })
 export class TaskListComponent {
 
-  tareas: ITareas[] = [];
+  tareas: any;
 
   constructor(private TareasService: TareasService) {}
 
@@ -29,8 +29,14 @@ export class TaskListComponent {
     this.actualizarTareas();
   }
 //EDITAMOS DATOS
-  editarTarea(dato: ITareas) {
-    this.TareasService.setTareaParaEditar(dato);
+  editarTarea(tarea: ITareas) {
+    this.TareasService.setTareaParaEditar(tarea);
+  }
+
+  tareaSeleccionada = null;
+
+  seleccionarTarea(tarea: ITareas | null): void {
+    this.tareaSeleccionada = tarea;
   }
 
 }

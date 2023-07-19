@@ -2,9 +2,10 @@
 
 <ul>
   <li *ngFor="let tarea of tareas">
-    {{ tarea.nombre }} - {{ tarea.descripcion }} - {{ tarea.autor }} - {{ tarea.urgencia }} - {{ tarea.estado }}
+    {{ tarea.nombre }}
     <button (click)="eliminarTarea(tarea.id)">Eliminar</button>
     <button (click)="editarTarea(tarea)">Editar</button>
-    <!-- <button (click)="(tarea)">Detalles</button> -->
+    <button  (click)="seleccionarTarea(tarea)">Detalles</button>
   </li>
 </ul>
+<app-task-detail *ngIf="tareaSeleccionada" [tarea]="tareaSeleccionada"></app-task-detail>

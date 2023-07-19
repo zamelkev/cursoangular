@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { ITareas } from './itareas.model';
 
@@ -12,8 +11,8 @@ export class TareasService {
   public tareaParaEditar: BehaviorSubject<ITareas | null> = new BehaviorSubject<ITareas | null>(null); 
   public tareaSelecionada: BehaviorSubject<ITareas | null> = new BehaviorSubject<ITareas | null>(null);
 
-  constructor(private http: HttpClient) {
-    //2.2 Cargar los tareas iniciales y los tareas guardadas
+  constructor() {
+    
     this.cargarTareasIniciales();
     this.cargarTareasGuardadas();
   }
@@ -68,13 +67,13 @@ export class TareasService {
     }
   }
 
-  mostrarTarea(tareaSelecionada: ITareas) {
-    const index = this.tareas.findIndex(tarea => tarea.id === tareaSelecionada.id); 
-    if (index !== -1) { 
-      this.tareas[index] = tareaSelecionada; 
-      // Acabar
-    }
-  }
+  // mostrarTarea(tareaSelecionada: ITareas) {
+  //   const index = this.tareas.findIndex(tarea => tarea.id === tareaSelecionada.id); 
+  //   if (index !== -1) { 
+  //     this.tareas[index] = tareaSelecionada; 
+  //     // Acabar
+  //   }
+  // }
 
   getTareaParaEditar(): Observable<ITareas | null> {
     return this.tareaParaEditar.asObservable(); 
@@ -93,5 +92,9 @@ export class TareasService {
     const maxId = Math.max(...ids); 
     return maxId + 1; 
   }
+
+  // mostrarDetalle(tarea: ITareas) {
+    
+  // }
   
 }
