@@ -1,0 +1,23 @@
+verDetalles(experiencia: any): void {
+    this.router.navigate(['/detalles'], { state: { experiencia, tipo: 'educativa' } });
+  }
+  
+  
+  
+  
+  experiencia!: any;
+  tipoExperiencia!: string;
+
+  constructor(private route: ActivatedRoute) {}
+
+  ngOnInit() {
+    this.experiencia = history.state.experiencia;
+    this.tipoExperiencia = history.state.tipo;
+  }
+}
+
+
+	1. Crear componentes detalles.
+	2. Dividir los datos que se visualizan entre el HTML del componente padre (solo el título) y el HTML del componente hijo (el resto de datos)
+	3. Utilizar @Input para comunicar datos del padre al hijo
+	4. 
