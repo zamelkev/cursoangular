@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class IntroAbstractComponent {
 
+  // detallesIntro?: number;
+
+  // mostrarDetalles() {
+  //   this.detallesIntro = 1;
+  // }
+  
 }

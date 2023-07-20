@@ -11,6 +11,7 @@ import { MainComponentsModule } from './main-components/main-components.module';
 import { PersonalDataModule } from './personal-data/personal-data.module';
 import { VolunteeringAndSocialActionsModule } from './volunteering-and-social-actions/volunteering-and-social-actions.module';
 import { WorkingExperienciesModule } from './working-experiencies/working-experiencies.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { WorkingExperienciesModule } from './working-experiencies/working-experi
     WorkingExperienciesModule,
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

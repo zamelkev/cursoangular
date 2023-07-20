@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { WorkingExperience } from '../working-exp-detail/working-experience.model';
 
 @Component({
   selector: 'app-working-experience',
@@ -8,7 +9,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class WorkingExperienceComponent {
 
-  datos!: any
+  datos!: any;
+  experienciaSeleccionada!: WorkingExperience;
 
   constructor(private http: HttpClient){}
 
@@ -17,12 +19,14 @@ ngOnInit(){
 
 }
 
-
-
 cargarDatos() {
   this.http.get<any>('../../../assets/json/working-experiencies.json').subscribe(
     data => {
       this.datos = data.datos;
     })
+}
+
+seleccionarExperienciaLaboral(experiencia: WorkingExperience): void {
+  this.experienciaSeleccionada = experiencia;
 }
 }
