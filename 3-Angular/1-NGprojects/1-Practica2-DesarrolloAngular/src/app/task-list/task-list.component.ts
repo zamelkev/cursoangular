@@ -33,9 +33,9 @@ export class TaskListComponent {
     this.TareasService.setTareaParaEditar(tarea);
   }
 
-  tareaSeleccionada = null;
+  tareaSeleccionada: any;
 
-  seleccionarTarea(tarea: ITareas | null): void {
+  seleccionarTarea(tarea: ITareas): void {
     this.tareaSeleccionada = tarea;
   }
 

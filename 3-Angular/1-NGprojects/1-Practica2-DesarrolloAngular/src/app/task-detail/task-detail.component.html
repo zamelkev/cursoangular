@@ -1,7 +1,8 @@
-<h2>Detalles de la Tarea</h2>
-
-<ul>
-  <li >
-    {{ tarea.nombre }} - {{ tarea.descripcion }} - {{ tarea.autor }} - {{ tarea.urgencia }} - {{ tarea.estado }}
-  </li>
-</ul>
+<div *ngIf="tarea">
+  <h2>Detalles de la Tarea</h2>
+  <ul>
+    <li >
+      {{ tarea.nombre }} - {{ tarea.descripcion }} - {{ tarea.autor }} - {{ tarea.urgencia }} - {{ tarea.estado }}
+    </li>
+  </ul>
+</div>

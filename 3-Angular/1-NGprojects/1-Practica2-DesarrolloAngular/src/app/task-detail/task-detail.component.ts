@@ -10,7 +10,7 @@ import { ITareas } from '../itareas.model';
 export class TaskDetailComponent implements OnInit {
 
   tareas: ITareas[] = [];
-  @Input() tarea: any;
+  @Input() tarea?: ITareas;
   
   constructor(private TareasService: TareasService) {}
 
