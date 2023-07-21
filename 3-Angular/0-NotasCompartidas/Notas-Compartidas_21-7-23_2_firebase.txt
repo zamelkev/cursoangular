@@ -1,0 +1,47 @@
+
+CLASE DE HOY
+	* CRUD Servidor
+	* Comunicación entre componente
+	* Proyectos
+	* https://github.com/alesrin/Firebase
+
+DUDAS
+
+	* Sanchi: pon los que debemos elegir en init pls. Dependerá de los que instalemos desde la consola de firebase. ya, digo como proyecto base (En nuestro caso y si no me equivoco, hemos seleccionado los siguientes: Authentication, Firestore Database y el de Hosting)
+
+
+REUNIONES
+	* Eduardo
+	* Adrián
+	* Kevin
+	* Ariel
+	* Eneko
+	* Manel
+	* Medina
+
+Enlace a Firebase
+https://firebase.google.com/?hl=es-419
+
+COMANDO INSTALACIÓN FIREBASE
+npm install firebase @angular/fire --save
+		* npm install -g firebase-tools
+		* npm i -g firebase
+	* Firebase login
+	* Firebase init
+		* Seleccionar los servicios que quiero utilizar(barra espaciadora)
+	* ng add @angular/fire
+
+IMPOTAR MÓDULOS
+		* import { AngularFireModule } from '@angular/fire/compat';
+		* import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+		* import { AngularFireAuth, AngularFireAuthModule } from '@angular/fire/compat/auth'
+
+		IMPORTS:AngularFireModule.initializeApp(firebaseConfig), AngularFirestoreModule, AngularFireAuthModule],
+
+
+
+
+
+
+
+

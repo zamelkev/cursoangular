@@ -1,0 +1,29 @@
+CLASE DE HOY
+	* CRUD Servidor
+	* Comunicación entre componente
+	* Proyectos
+
+
+
+
+REUNIONES
+	* Eduardo
+	* Adrián
+	* Kevin
+	* Ariel
+	* Eneko
+	* Manel
+
+Enlace a Firebase
+https://firebase.google.com/?hl=es-419
+
+COMANDO INSTALACIÓN FIREBASE
+npm install firebase @angular/fire --save
+		* npm install -g firebase-tools
+		* npm i -g firebase
+	* Firebase login
+	* Firebase init
+	* 
+
+
+
