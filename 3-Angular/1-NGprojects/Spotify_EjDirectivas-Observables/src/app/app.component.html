@@ -1,3 +1,19 @@
 <app-main-menu></app-main-menu>
 
+<button onclick="pedirNombreyApellido()">Introducir Nombre & Apellido: </button>
+
+<p id="mensaje"></p>
+
+<script>
+function pedirNombreyApellido() {
+  let nombre = prompt("Please enter your name", "Introduce tu nombre");
+  let apellido = prompt("Please enter your name", "Introduce tu nombre");
+  if (person != null) {
+    document.getElementById("mensaje").innerHTML =
+    "Hola " + nombre + apellido + "¿ Qué tal tu día ?";
+  }
+}
+</script>
+
+
 <router-outlet></router-outlet>
