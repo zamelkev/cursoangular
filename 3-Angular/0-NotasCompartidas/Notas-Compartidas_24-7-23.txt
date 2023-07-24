@@ -1,0 +1,66 @@
+CLASE DE HOY
+	* Autenticación con Firebase en IONIC
+	* Reactive Forms
+	* Servicios
+	* Ejercicio de 
+	* Autenticación con Firebase en IONIC
+	* Autenticación con Firebase en Angular 
+	* Ejercicio 
+	* Autenticación con Firebase en Angular 
+	* Dudas y grupos.
+
+REUNIONES Y GRUPOS
+	* Grupo 1
+	* Sanchi
+	* Adrián
+	* Manel
+	* Paul
+
+
+DUDAS
+	* tendremos tiempo para configurar el firebase de nuevo? A mi se me ha olvidado por completo hacer el fin de semana. Sí
+	* Pablo: intenté implementar login/registro de firebase en nuestro proyecto siguiendo el video del viernes y el repositorio de firebase-ionic-auth pero obtengo un error "Can't bind to 'formGroup' since it isn't a known property of 'form'" que he intentado debugar pero no sé resolver. Ahora me compartes y te resuelvo Pablo
+
+EJERCICIO 1
+Aplicación con nombre login27
+	1. crear aplicación: ionic start login27 tabs
+	2. Crear un nuevo proyecto en la consola de Firebase y una aplicación web que se llame login27web
+	3. Instalar Ionic: npm install firebase @angular/fire --save
+	4. Importar los módulos de angular en el módulo raiz de la aplicación (paso 3 presentación) + anadir credenciales proyecto firebase
+	5. Crear un servicio auth: ionic g service auth (Paso 5 presentación)
+	6. Dentro de este servicio importamos angularFireAuth y creamos los métodos loginUser y registerUser (Pasos 6, 11 y 12 de a presentación)
+	7. Creamos la página login: ionic g page login
+	8. Seguir los pasos de la presentación para login.html y login.ts
+
+
+ENLACES SOBRE REACTIVE FORMS Y VALIDATORS DE ANGUALR FORMS
+
+	1. Realizamos un formulario con Reactive Forms y Validators de un concesionario de compra de coches que le pide los datos del coche via web al vendedor del mismo. 
+
+https://angular.io/guide/form-validation
+
+https://angular.io/guide/reactive-forms
+
+https://gist.github.com/killerchip/7054362d743496a57f123b4f77413342
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

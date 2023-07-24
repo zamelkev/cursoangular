@@ -1,0 +1,26 @@
+CLASE DE HOY
+	* Autenticación con Firebase en IONIC
+	* Reactive Forms
+	* Servicios
+	* Ejercicio de 
+	* Autenticación con Firebase en IONIC
+	* Autenticación con Firebase en Angular 
+	* Ejercicio 
+	* Autenticación con Firebase en Angular 
+	* Dudas y grupos.
+
+REUNIONES Y GRUPOS
+	* Grupo 1
+	* Sanchi
+	* Adrián
+
+
+DUDAS
+	* tendremos tiempo para configurar el firebase de nuevo? A mi se me ha olvidado por completo hacer el fin de semana
+	* Pablo: intenté implementar login/registro de firebase en nuestro proyecto siguiendo el video del viernes y el repositorio de firebase-ionic-auth pero obtengo un error "Can't bind to 'formGroup' since it isn't a known property of 'form'" que he intentado debugar pero no sé resolver.
+
+EJERCICIO 1
+Aplicación con nombre login27
+
+
+
