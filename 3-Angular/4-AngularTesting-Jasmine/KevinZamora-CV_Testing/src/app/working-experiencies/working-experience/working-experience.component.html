@@ -1,0 +1,10 @@
+    <h2 class="mb-5">Experiencia</h2>
+    <div class="d-flex flex-column flex-md-row justify-content-between mb-5" *ngFor="let item of datos">
+        <div class="flex-grow-1">
+            <h3 class="mb-0">{{item.profesion}}</h3> 
+            <button mat-raised-button class="bg-primary text-light" (click)="seleccionarExperienciaLaboral(item)">Mostrar (+)Detalles</button>
+            <!-- <div class="subheading mb-3">{{item.puesto}}</div>
+            <p>{{item.descripcion}}</p> -->
+        </div>
+        <!-- <div class="flex-shrink-0"><span class="text-primary">{{item.periodo}}</span></div> -->
+    </div>

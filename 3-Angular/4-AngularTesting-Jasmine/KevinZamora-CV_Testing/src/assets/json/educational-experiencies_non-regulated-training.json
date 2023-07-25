@@ -1,0 +1,61 @@
+{
+    "formacionNoReglada": [
+        {
+            "estudio": "Curso de Especialización: Desarrollo Frontent con Angular (215h.)",
+            "intitucion":"Adecco - Escuela Digital",
+            "localizacion": "Online / a Distancia",
+            "periodo" : "Mayo 2023 - Septiembre 2023",
+            "cualificacion" : "En proceso",
+            "enlace" : "https://fundacionadecco.org/cursos/desarrollo-web-frontend/",
+            "motivacion" : "Mi motivación: Seguir formándome para lograr mi objetivo: lograr trabajar como desarrollador/programador en modalidad de teletrabajo y en remoto."
+        },
+        {
+            "estudio": "Curso de Especialización: Desarrollo .NET [para 'Backend'] y Angular [para 'Frontend'] (215h.)",
+            "intitucion":"Adecco - Escuela Digital",
+            "localizacion": "Online / a Distancia",
+            "periodo" : "Octubre 2022 - Enero 2023",
+            "cualificacion" : "10",
+            "enlace" : "https://fundacionadecco.org/cursos/curso-de-programacion-net-con-la-colaboracion-de-sage/",
+            "motivacion" : "Mi motivación: Seguir formándome para lograr mi objetivo: lograr trabajar como desarrollador/programador en modalidad de teletrabajo y en remoto."
+        },
+        {
+            "estudio": "Campus BYG 2020",
+            "intitucion":"Fundaciones LQDVI y Endesa",
+            "localizacion": "Gaia Camp (Sierra de Gredos - Caceres)",
+            "periodo" : "Junio 2021",
+            "cualificacion" : "Apto",
+            "enlace" : "https://www.loquedeverdadimporta.org/proyecto/byg-mucho-mas-que-talento/",
+            "motivacion" : "Mi motivación: Seguir formándome para lograr mi objetivo: lograr trabajar el lo que me apasiona y poder contribuir a evolucionar nuestra sociedad, basándose en el respeto la colaboración y los valores, que presentamos y mantenemos aún y actualmente algunxs jóvenes."
+        },
+        {
+            "estudio": "Curso de Especialización: Desarrollo Web Java (225h.)",
+            "intitucion":"Fundación Telefónica",
+            "localizacion": "Castellón",
+            "periodo" : "Septiembre 2019 - Diciembre 2019",
+            "cualificacion" : "10",
+            "enlace" : "https://www.castelloninformacion.com/25-jovenes-de-castellon-se-formaran-en-desarrollo-web-java/",
+            "motivacion" : "Mi motivación: Seguir formándome para lograr mi objetivo: lograr trabajar como desarrollador/programador en modalidad de teletrabajo y en remoto."
+        },
+        {
+            "estudio": "Curso de Inmersión Liguística (Inglés): UIMP Camp (40h.)",
+            "intitucion":"Universidad Internacional Mendelez Pelayo (Santander)",
+            "localizacion": "Valencia",
+            "periodo" : "Agosto 2017 & Junio 2018",
+            "cualificacion" : "Apto - Nivel B1",
+            "enlace" : "https://www.uimp.es/actividades-academicas/cursos-de-inmersion-en-ingles.html",
+            "motivacion" : "Mi motivación: Seguir formándome para lograr mi objetivo: lograr trabajar como desarrollador/programador en modalidad de teletrabajo y en remoto, en este caso, logrando mejorar mi nivel de Inglés hablado."
+        },
+        {
+            "estudio": "Curso de Inmersión Liguística (Inglés): Diverbo Camp (Campamento de verano, conviviendo con adolescentes angloparlantes)",
+            "intitucion":"Diverbo",
+            "localizacion": "Les Esplugues de Francolí (Tarragona)",
+            "periodo" : "Julio 2015",
+            "cualificacion" : "Apto",
+            "enlace" : "https://www.puebloingles.com/becas-ingles",
+            "motivacion" : "Mi motivación: Seguir formándome para lograr mi objetivo: lograr trabajar como desarrollador/programador en modalidad de teletrabajo y en remoto, en este caso, logrando mejorar mi nivel de Inglés hablado."
+        }
+    ]
+    
+
+
+}

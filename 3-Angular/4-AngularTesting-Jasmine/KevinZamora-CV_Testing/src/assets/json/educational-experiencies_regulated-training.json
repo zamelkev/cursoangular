@@ -1,0 +1,34 @@
+{
+    "formacionReglada": [
+        {
+            "estudio": "Grado Universitario en Psicología",
+            "intitucion":"UNED",
+            "localizacion": "Tortosa (Tarragona)",
+            "periodo" : "Septiembre 2018 - Junio 2022",
+            "cualificacion" : "En proceso",
+            "enlace" : "http://portal.uned.es/portal/page?_pageid=93,71801915&_dad=portal&_schema=PORTAL",
+            "motivacion" : "Mi motivación: A finales de 2017, empeoró drásticamente mi estado funcional y cognitivo, deteriorándose notablemente funciones como: Atención (Sostenida & Selectiva), Memoria (a Corto y a Largo Plazo), Capacidad de Aprendizaje, Movilidad, ect; y por ende, se dificultó proseguir con una ingeniería, aunque esto jamás me ha detenido. Ese año sabático por la fuerza, entre medias, inicié una rehabilitación y escribí e ilustré un libro gráfico de autoayuda. Y para el curso 2018-19, decidí emprender dicho grado, a modo de rehabilitación complementaria."
+        },
+        {
+            "estudio": "CFGS en Automatización y Robótica Industrial (LOE)",
+            "intitucion":"IES de l'Ebre",
+            "localizacion": "Tortosa (Tarragona)",
+            "periodo" : "Septiembre 2015 - Junio 2017",
+            "cualificacion" : "6,64",
+            "enlace" : "https://insebre.cat/index.php/estudis/cf-de-grau-superior?view=article&id=51",
+            "motivacion" : "Mi motivación: Desde bien pequeñito, siempre me ha apasionado innovar, aprender y crear. Este era el 'ciclo superior' que más me atraía, de los que ofertaban cerca de donde vivo y debido a mi estado por aquel entonces, no podía permitirme irme mucho más lejos. Y aunque mis metas y mi orientación se han visto obligadas a cambiar de rumbo, siempre sigui presente y muy relevante, la inaludible importancia de saber automatizar todo lo posible, para así lograr ser mucho más eficaces y productiv@s"
+        },
+        {
+            "estudio": "CFGM en Infraestructuras de Telecomunicaciones (LOE)",
+            "intitucion":"IES Leopoldo Querol",
+            "localizacion": "Vinaròs (Castellón)",
+            "periodo" : "Septiembre 2013 - Junio 2015",
+            "cualificacion" : "8,38",
+            "enlace" : "https://ceice.gva.es/es/web/formacion-profesional/publicador-ciclos/-/asset_publisher/FRACVC0hANWa/content/ciclo-formativo-instalaciones-de-telecomunicaciones",
+            "motivacion" : "Mi motivación: Desde bien pequeñito, siempre me ha apasionado innovar, aprender y crear. Este era el 'ciclo medio' que más me atraía, de los que ofertaban cerca de donde vivo y debido a mi estado por aquel entonces, no podía permitirme irme mucho más lejos. Nos guste o no, las tecnologías son el futuro, junto con otras tecnologías y a su vez, están modulando y guiando toda nuestra sociedad y nuestra vida, desde pricipios de este milenio"
+        }
+    ]
+    
+
+
+}
