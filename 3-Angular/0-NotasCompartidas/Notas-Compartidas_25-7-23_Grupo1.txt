@@ -1,0 +1,7 @@
+QUÉ NOS FALTA?
+	* Front - 
+	* Para hacer el databinding podemos utilizar o el parámetro [(ngModule)] o los Reactiver Forms
+		* Reactive Forms -> Autenticación con Firebase.
+		* [(ngModule)] -> Observables
+	* Para mostrar los resultados de una categoría en específico utilizamos en el html el ngIf o el ngSwitch
+https://wilderperozo.medium.com/buscador-din%C3%A1mico-usando-angular-y-rxjs-ba94645ea862
