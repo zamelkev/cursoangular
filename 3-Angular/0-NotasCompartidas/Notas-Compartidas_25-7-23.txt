@@ -1,0 +1,69 @@
+CLASE DE HOY
+
+	* Kahoot
+		* https://kahoot.it/challenge/02425555?challenge-id=371ac601-7ee2-492e-a0a6-1464f947fffd_1690269353405
+		* https://kahoot.it/challenge/08889071?challenge-id=371ac601-7ee2-492e-a0a6-1464f947fffd_1690269422940
+	* Linkedin
+	* SwipperJs
+	* NG build
+	* Dudas, Proyectos, reuniones.
+
+
+EVALUACIÓN
+	* ¿Cómo vas con los contenidos y ejercicios de curso?
+	* ¿Qué te ha parecido el curso en general?
+	* Sugerencias de cara a próximas ediciones
+
+DUDAS y GRUPOS
+	* Manel: Caso práctico TypeScript Lo hacemos nosotros solos?
+	* Eneko: Cuántos casos practicos nos quedan por resolver? El unico no bloqueado no hecho es Caso práctico TypeScript y se hará en clase.
+	* Eneko: cuantos casos casos practicos hay en total 3
+	* Alex: ¿Cuando es es la presentación de proyectos antes las empresas? El Viernes ante quien presentaremos? Principios de septiembre, nos indicara pilar con correo, y este viernes presentaremos ante adecco
+
+
+LINKEDIN
+	1. Generar un perfil ideal
+		1.1. Empleos ideal
+		1.2. Personas de referencia
+		1.3. Grupos
+		1.4. Empresas
+		1.5. Cursos
+		1.6. 
+
+
+HTML +++
+CSS ++++
+JS ++++++
+TS ++
+GIT ++++
+ANGULAR +++++
+REACT ++
+DJANGO / NEXTJS
+Mobile FIRST
+RESPONSIVE /BOOTSTRAP
+JQUERY ++
+IONIC
+ACCESIBILIDAD
+FIGMA
+
+
+
+
+
+PRESENTACIÓN PROYECTOS
+
+9:00 – 9:15 Preparación y puesta en marcha
+9:15-9:35 Presentación de proyecto Portal de empleo para personas con discapacidad y reporte del docente
+9:40-10:00 Presentación de proyecto ECOMARKET y reporte del docente
+10:05-10:25 Presentación de proyecto Plataforma de video en streaming y reporte del docente
+10:30-10:50 Presentación de proyecto  EasyCheck y reporte del docente
+10:55-11:15 Presentación de proyecto Ecommerce de productor ecológicos y reporte del docente
+11:15 – 11:30 Cierre y despedida
+
+
+
+
+
+
+
+
