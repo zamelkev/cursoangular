@@ -12,7 +12,7 @@ DUDAS INDIVIDUALES
 PROYECTO
 	* Grupo 3: Footer directo / 
 
-COMANDOS
+
 
 PARA CONSTRUIR Y DESPLIEGUE APPWEB
 	* Editar firebase.json --> cambiar "public" por "www"
@@ -21,6 +21,26 @@ PARA CONSTRUIR Y DESPLIEGUE APPWEB
 
 PARA CREAR MI APP HÍBRIDA ANDROID
 	* ionic capacitor build android --livereload --external
+
+PARA INSPECCIONAR MI APP CON CHROME INSPECT
+
+	1. Activar en mi móvil las opciones de desarrollador (para cada móvil es diferente, buscar en google el modelo de móvil y cómo activarlas si no nos valen las instrucciones de este enlace: https://www.xatakandroid.com/tutoriales/como-activar-opciones-desarrollador-android-sirve  )
+2. Acceder a chrome://inspect#device
+3. Activar en las opciones de desarrollo DEPURACIÓN POR USB
+4. Inspeccionar el dispositivo
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
