@@ -1,0 +1,25 @@
+CLASE DE HOY
+	* DUDAS Y PROYECTOS
+
+
+DUDAS INDIVIDUALES
+	* Ariel: problemas implementando una bottomsheet de angular material
+	* Sanchi: Tengo una pregunta para privado 
+	* Manel: Reunion con alej
+	* Eduardo firebase ejercicio de login 
+	* Adrian: Ejercicios obligatorios
+
+PROYECTO
+	* Grupo 3: Footer directo / 
+
+COMANDOS
+
+	* Editar firebase.json --> cambiar "public" por "www"
+	* ionic build --prod  // ng build --prod
+	* ionic deploy // ng deploy --> firebase deploy
+	* ionic capacitor build android --livereload --external
+
+
+
+
+

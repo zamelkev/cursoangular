@@ -1,3 +1,4 @@
+
 CLASE DE HOY
 	* CRUD SERVIDOR:
 		* https://github.com/alesrin/auth
@@ -9,19 +10,19 @@ DUDAS
 Grupo 3: AngularFirestoreModule error en module
 
 
-PASOS CRUD FIRESTORE
-
-	* Importar las dependencias de FIRESTORE (La nueva versión de firebase incorpora nuevas dependencias para Firestore)-->
-		* import { provideFirestore, getFirestore } from '@angular/fire/firestore';
-		* import { FIREBASE_OPTIONS } from '@angular/fire/compat';
-		* import {initializeApp, provideFirebaseApp} from '@angular/fire/app';
-	* Añadir credenciales del proyecto de firebase en el app.module.ts
-	* Inyectar las importaciones en la propiedad imports: 
-		* provideFirestore(() => getFirestore())
-		* provideFirebaseApp( () => initializeApp(firebaseConfig))
-	* Inyectar servicio Firebase en providers:
-		* { provide: FIREBASE_OPTIONS, useValue: firebaseConfig }
-
+ m
+		* import { Firestore, collection, addDoc, collectionData, doc, deleteDoc } from '@angular/fire/firestore';
+		* import { Observable } from 'rxjs';
+	* Inyectamos el servicio de Firestore en el constructor de LugarService:
+		* private firestore: Firestore
+	* Definimos la interfaz de los datos en lugar.service.ts:
+		* export default interface Place {
+	    id?: string;
+	    name: string;
+	    description: string;
+	    image: string;
+		}
+	* Creamos un método para crear objetos en mi co
 
 
 
