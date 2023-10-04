@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{title}} | {{id}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p>Article description comes here</p>
+  <app-article-comment *ngFor="let item of lists" [commentID]="item.id" [fragment]="fragment"></app-article-comment>
+</ion-content>

@@ -43,8 +43,8 @@ export const firebaseConfig = {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFireModule
-    , provideFirestore(() => getFirestore()),
+    AngularFireModule, 
+    provideFirestore(() => getFirestore()),
     AngularFirestoreModule, AngularFireAuthModule,
     FormsModule, ReactiveFormsModule,
     provideFirebaseApp( () => initializeApp(firebaseConfig))
